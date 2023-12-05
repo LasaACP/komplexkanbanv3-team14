@@ -13,6 +13,7 @@
 #include "../src/fac.h"
 #include "../src/Complex.h"
 #include "../src/addition.h"
+#include "../src/equality.h"
 using namespace std;
 
 #ifdef CATCH_AMALGAMATED_CUSTOM_MAIN
