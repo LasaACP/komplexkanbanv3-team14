@@ -18,6 +18,7 @@
 #include "../src/division.h"
 #include "../src/absolutevalue.h"
 #include "../src/complexconj.h"
+#include "../src/argument.h"
 using namespace std;
 
 #ifdef CATCH_AMALGAMATED_CUSTOM_MAIN
@@ -84,9 +85,9 @@ TEST_CASE("Testing Absolute Value/Magnitude", "[||]")
   cout <<"Running tests on absolute value" << endl;
   REQUIRE(abs(Complex(3,4)) == 5);
   REQUIRE(abs(Complex(0, 2)) == 2);
-  REQUIRE(abs(Complex(-1, 2)) == 2.2360679775);
+  REQUIRE(abs(Complex(-1, 2)) == sqrt(5));
   REQUIRE(abs(Complex(5, 0)) == 5);
-  REQUIRE(abs(Complex(2,-2)) == 2.82842712475);
+  REQUIRE(abs(Complex(2,-2)) == sqrt(8));
 }
 
 TEST_CASE("Testing complex conjugate", "[conj]")
@@ -97,6 +98,17 @@ TEST_CASE("Testing complex conjugate", "[conj]")
   REQUIRE(conj(Complex(-1, 2)) == Complex(-1, -2));
   REQUIRE(conj(Complex(5, 0)) == 5);
   REQUIRE(conj(Complex(0,0)) == 0);
+}
+
+TEST_CASE("Testing argument", "[arg]")
+{
+  cout <<"Running tests on argument" << endl;
+  
+  REQUIRE(arg(Complex(3,4)) == atan(4/3));
+  REQUIRE(arg(Complex(0, 2)) == M_PI/2);
+  REQUIRE(arg(Complex(4,5)) == atan(5/4));
+  REQUIRE(arg(Complex(2,0)) == 0);
+  
 }
 
 // */
