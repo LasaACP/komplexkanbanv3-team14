@@ -21,8 +21,8 @@ add_library(MyLibrary STATIC
   ../lib/multiplication.h
   ../lib/outstream.cpp
   ../lib/outstream.h
-  ../lib/>>.cpp
-  ../lib/>>.h
+  ../lib/instream.cpp
+  ../lib/instream.h
 )
 
 add_executable(MyProgram
