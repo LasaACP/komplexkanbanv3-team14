@@ -7,7 +7,6 @@ public:
   double img;
   Complex();
   Complex(double r, double i);
-Complex operator+(Complex &other);
 };
 
 #endif

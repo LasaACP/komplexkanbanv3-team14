@@ -66,5 +66,15 @@ TEST_CASE("Testing Multiplication", "[*]")
   REQUIRE(Complex(3, 0) * 0 == Complex(0, 0));
 }
 
+TEST_CASE("Testing Division", "[/]")
+{
+  cout <<"Running tests on Division" << endl;
+  REQUIRE(Complex(3,2) / Complex(3,-2) == Complex(0.38461538461, 0.92307692307));
+  REQUIRE(Complex(3, 2) / Complex(3,2) == 1);
+  REQUIRE(Complex(-1, 2) / Complex(1, 8) == Complex(0.23076923076, 0.15384615384));
+  REQUIRE(Complex(0, 5) / 3 == Complex(0,1.66666666667));
+  REQUIRE(Complex(3, 0) / 1 == Complex(3, 0));
+}
+
 // */
 #endif  //ifndef CATCH_AMALGAMATED_CUSTOM_MAIN
