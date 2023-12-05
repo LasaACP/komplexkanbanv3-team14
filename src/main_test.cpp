@@ -10,15 +10,14 @@
 //#define CATCH_AMALGAMATED_CUSTOM_MAIN
 #include <iostream>
 #include "../tests/catch_amalgamated.hpp"
-#include "../src/fac.h"
-#include "../src/Complex.h"
-#include "../src/addition.h"
-#include "../src/equality.h"
-#include "../src/multiplication.h"
-#include "../src/division.h"
-#include "../src/absolutevalue.h"
-#include "../src/complexconj.h"
-#include "../src/argument.h"
+#include "../lib/Complex.h"
+#include "../lib/addition.h"
+#include "../lib/equality.h"
+#include "../lib/multiplication.h"
+#include "../lib/division.h"
+#include "../lib/absolutevalue.h"
+#include "../lib/complexconj.h"
+#include "../lib/argument.h"
 using namespace std;
 
 #ifdef CATCH_AMALGAMATED_CUSTOM_MAIN
