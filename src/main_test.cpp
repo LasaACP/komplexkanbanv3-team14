@@ -18,6 +18,9 @@
 #include "../lib/absolutevalue.h"
 #include "../lib/complexconj.h"
 #include "../lib/argument.h"
+#include "../lib/<<.h"
+#include "../lib/>>.h"
+
 using namespace std;
 
 #ifdef CATCH_AMALGAMATED_CUSTOM_MAIN
