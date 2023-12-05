@@ -11,7 +11,8 @@
 #include <iostream>
 #include "../tests/catch_amalgamated.hpp"
 #include "../src/fac.h"
-#include "../src/Complex.cpp"
+#include "../src/Complex.h"
+#include "../src/addition.h"
 using namespace std;
 
 #ifdef CATCH_AMALGAMATED_CUSTOM_MAIN

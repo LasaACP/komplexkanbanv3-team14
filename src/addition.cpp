@@ -1,5 +1,5 @@
 #include "Complex.h" 
 #include "addition.h"
-Complex Complex::operator+( Complex &other ) {
-   return Complex( real + other.real, img + other.img);
+Complex operator+(const Complex &z, const Complex &w) {
+   return Complex(z.real + w.real, z.img + w.img);
 }
