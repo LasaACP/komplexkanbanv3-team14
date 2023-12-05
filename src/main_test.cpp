@@ -51,7 +51,7 @@ TEST_CASE("Testing Addition", "[+]")
   cout << "Running tests on addition" << endl;
   REQUIRE(Complex(1,2) + Complex(1,2) == Complex(2, 4));
   REQUIRE(Complex(1, -2) + Complex(1,2) == Complex(2, 0));
-  REQUIRE(Complex(-1, 2) + Complex(-1, 2) == Complex(-2, 4));
+  REQUIRE(Complex(-1, 2) + 3 == Complex(2, 2));
   REQUIRE(Complex(0, 5) + Complex(0, -5) == Complex(0,0));
   REQUIRE(Complex(3, 0) + Complex(-2, 0) == Complex(1, 0));
 }
