@@ -14,6 +14,7 @@
 #include "../src/Complex.h"
 #include "../src/addition.h"
 #include "../src/equality.h"
+#include "../src/multiplication.h"
 using namespace std;
 
 #ifdef CATCH_AMALGAMATED_CUSTOM_MAIN
@@ -58,7 +59,11 @@ TEST_CASE("Testing Addition", "[+]")
 TEST_CASE("Testing Multiplication", "[*]")
 {
   cout <<"Running tests on multiplication" << endl;
-  
+  REQUIRE(Complex(3,2) * Complex(3,-2) == Complex(13, 0));
+  REQUIRE(Complex(3, 2) * Complex(3,2) == Complex(5, 12));
+  REQUIRE(Complex(-1, 2) * Complex(1, 8) == Complex(-17, 6));
+  REQUIRE(Complex(0, 5) * 3 == Complex(0,15));
+  REQUIRE(Complex(3, 0) * 0 == Complex(0, 0));
 }
 
 // */
