@@ -54,5 +54,12 @@ TEST_CASE("Testing Addition", "[+]")
   REQUIRE(Complex(0, 5) + Complex(0, -5) == Complex(0,0));
   REQUIRE(Complex(3, 0) + Complex(-2, 0) == Complex(1, 0));
 }
+
+TEST_CASE("Testing Multiplication", "[*]")
+{
+  cout <<"Running tests on multiplication" << endl;
+  
+}
+
 // */
 #endif  //ifndef CATCH_AMALGAMATED_CUSTOM_MAIN
