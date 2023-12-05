@@ -15,6 +15,8 @@
 #include "../src/addition.h"
 #include "../src/equality.h"
 #include "../src/multiplication.h"
+#include "../src/division.h"
+#include "../src/absolutevalue.h"
 using namespace std;
 
 #ifdef CATCH_AMALGAMATED_CUSTOM_MAIN
@@ -74,6 +76,16 @@ TEST_CASE("Testing Division", "[/]")
   REQUIRE(Complex(-1, 2) / Complex(1, 8) == Complex(0.23076923076, 0.15384615384));
   REQUIRE(Complex(0, 5) / 3 == Complex(0,1.66666666667));
   REQUIRE(Complex(3, 0) / 1 == Complex(3, 0));
+}
+
+TEST_CASE("Testing Absolute Value/Magnitude", "[||]")
+{
+  cout <<"Running tests on multiplication" << endl;
+  REQUIRE(abs(Complex(3,4)) == 5);
+  REQUIRE(abs(Complex(0, 2)) == 2);
+  REQUIRE(abs(Complex(-1, 2)) == 2.2360679775);
+  REQUIRE(abs(Complex(5, 0)) == 5);
+  REQUIRE(abs(Complex(2,-2)) == 2.82842712475);
 }
 
 // */
