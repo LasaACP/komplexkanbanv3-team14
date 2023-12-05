@@ -39,5 +39,17 @@ TEST_CASE("Quick Catch2 test on Factorial", "[Factorial]")
   REQUIRE(Factorial(4) == 24);
   REQUIRE(Factorial(5) == 1);
 }
+
+TEST_CASE("Testing Addition", "[+]")
+{
+
+  cout << "Hello Catch2 Build with Catch2 main()\n";
+  cout << "Running tests on addition" << endl;
+  REQUIRE(Complex(1,2) + Complex(1,2) == Complex(2, 4));
+  REQUIRE(Complex(1, -2) + Complex(1,2) == Complex(2, 0));
+  REQUIRE(Complex(-1, 2) + Complex(-1, 2) == Complex(-2, 4));
+  REQUIRE(Complex(0, 5) + Complex(0, -5) == Complex(0,0));
+  REQUIRE(Complex(3, 0) + Complex(-2, 0) == Complex(1, 0));
+}
 // */
 #endif  //ifndef CATCH_AMALGAMATED_CUSTOM_MAIN
