@@ -18,8 +18,8 @@
 #include "../lib/absolutevalue.h"
 #include "../lib/complexconj.h"
 #include "../lib/argument.h"
-#include "../lib/<<.h"
-#include "../lib/>>.h"
+#include "../lib/outstream.h"
+#include "../lib/instream.h"
 
 using namespace std;
 

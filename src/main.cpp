@@ -8,8 +8,8 @@
 #include "../lib/absolutevalue.h"
 #include "../lib/complexconj.h"
 #include "../lib/argument.h"
-#include "../lib/<<.h"
-#include "../lib/>>.h"
+#include "../lib/outstream.h"
+#include "../lib/instream.h"
 using namespace std;
 #define PI 3.1415926538979323846
 #define EULER 2.71828182845904523536

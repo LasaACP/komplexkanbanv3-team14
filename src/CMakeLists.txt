@@ -19,8 +19,8 @@ add_library(MyLibrary STATIC
   ../lib/equality.h
   ../lib/multiplication.cpp
   ../lib/multiplication.h
-  ../lib/<<.cpp
-  ../lib/<<.h
+  ../lib/outstream.cpp
+  ../lib/outstream.h
   ../lib/>>.cpp
   ../lib/>>.h
 )
