@@ -17,6 +17,7 @@
 #include "../src/multiplication.h"
 #include "../src/division.h"
 #include "../src/absolutevalue.h"
+#include "../src/complexconj.h"
 using namespace std;
 
 #ifdef CATCH_AMALGAMATED_CUSTOM_MAIN
@@ -80,12 +81,22 @@ TEST_CASE("Testing Division", "[/]")
 
 TEST_CASE("Testing Absolute Value/Magnitude", "[||]")
 {
-  cout <<"Running tests on multiplication" << endl;
+  cout <<"Running tests on absolute value" << endl;
   REQUIRE(abs(Complex(3,4)) == 5);
   REQUIRE(abs(Complex(0, 2)) == 2);
   REQUIRE(abs(Complex(-1, 2)) == 2.2360679775);
   REQUIRE(abs(Complex(5, 0)) == 5);
   REQUIRE(abs(Complex(2,-2)) == 2.82842712475);
+}
+
+TEST_CASE("Testing complex conjugate", "[conj]")
+{
+  cout <<"Running tests on complex conjugate" << endl;
+  REQUIRE(conj(Complex(3,4)) == Complex(3,-4));
+  REQUIRE(conj(Complex(0, 2)) == Complex(0,-2));
+  REQUIRE(conj(Complex(-1, 2)) == Complex(-1, -2));
+  REQUIRE(conj(Complex(5, 0)) == 5);
+  REQUIRE(conj(Complex(0,0)) == 0);
 }
 
 // */
