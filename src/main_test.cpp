@@ -137,4 +137,5 @@ TEST_CASE("Testing Polar", "[polar]"){
 }
   
 // */
-#endif  //ifndef CATCH_AMALGAMATED_CUSTOM_MAIN
+
+#endif  //#ifndef CATCH_AMALGAMATED_CUSTOM_MAIN
