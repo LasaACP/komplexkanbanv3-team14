@@ -5,3 +5,7 @@
 double abs(Complex z){
   return sqrt(z.real*z.real + z.img*z.img);  
 }
+
+double norm(Complex z){
+  return sqrt(z.real*z.real + z.img*z.img);  
+}
