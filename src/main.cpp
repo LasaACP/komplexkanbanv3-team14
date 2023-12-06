@@ -22,7 +22,7 @@ using namespace std;
 #define PI 3.1415926538979323846
 #define EULER 2.71828182845904523536
 
-int main () {
+int main_2 () {
     cout << "Hello World" << endl;
 
     Complex a(5.0,6.0),b;

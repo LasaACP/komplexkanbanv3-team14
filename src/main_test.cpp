@@ -34,7 +34,7 @@ using namespace std;
 
 #ifdef CATCH_AMALGAMATED_CUSTOM_MAIN
 
-int main( int argc, char* argv[] ) {
+int main_test( int argc, char* argv[] ) {
   // global setup...
 
   int result = Catch::Session().run( argc, argv );

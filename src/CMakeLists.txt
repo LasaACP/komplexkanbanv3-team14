@@ -3,6 +3,8 @@ cmake_minimum_required(VERSION 3.10)
 project(myProject)
 
 add_library(MyLibrary STATIC
+  ../tests/catch_amalgamated.cpp
+  ../tests/catch_amalgamated.hpp
   ../lib/absolutevalue.cpp
   ../lib/absolutevalue.h
   ../lib/addition.cpp
