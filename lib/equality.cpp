@@ -16,3 +16,11 @@ bool operator==(const Complex &z, const double &w) {
     return false;
   }
 }
+bool operator==(const double &z, const Complex &w) {
+   if(w.img == 0 && z == w.real){
+     return true;
+   }
+  else{
+    return false;
+  }
+}
