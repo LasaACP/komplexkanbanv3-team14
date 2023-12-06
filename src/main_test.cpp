@@ -8,7 +8,6 @@
 //#define CATCH_CONFIG_RUNNER
 //#define CATCH_AMALGAMATED_CUSTOM_MAIN
 #include "../lib/Complex.h"
-<<<<<<< HEAD
 #include "../lib/absolutevalue.h"
 #include "../lib/addition.h"
 #include "../lib/argument.h"
@@ -33,12 +32,9 @@
 #include "../lib/tan.h"
 #include "../tests/catch_amalgamated.hpp"
 #include <iostream>
-=======
 #include "../lib/addition.h"
 
 #include "../lib/equality.h"
-
->>>>>>> 3e70a24 (i deleted evertyhing so pulling it back i think)
 
 #define PI 3.1415926538979323846
 #define EULER 2.71828182845904523536
@@ -82,7 +78,6 @@ TEST_CASE("Testing Addition") {
   REQUIRE(Complex(3, 0) + Complex(-2, 0) == Complex(1, 0));
 }
 
-<<<<<<< HEAD
 TEST_CASE("Testing Subtraction") {
   cout << "Running tests on subtraction" << endl;
   REQUIRE(Complex(1, 2) - Complex(1, 2) == Complex(0, 0));
@@ -188,8 +183,6 @@ TEST_CASE("Testing multequals", "[multequals]") {
   REQUIRE((Complex(0, 5) *= 3) == Complex(0, 15));
   REQUIRE((Complex(3, 0) *= 0) == Complex(0, 0));
 }
-=======
->>>>>>> 3e70a24 (i deleted evertyhing so pulling it back i think)
 
 TEST_CASE("Testing plusequals", "[plusequals]") {
   cout << "Running tests on plusequals" << endl;
