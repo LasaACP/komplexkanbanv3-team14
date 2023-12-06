@@ -1,3 +1,3 @@
 #include "Complex.h"
 
-double imag(Complex z);
+double imag(const Complex &z);

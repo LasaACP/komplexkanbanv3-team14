@@ -1,3 +1,3 @@
 #include "magnitude.h"
 
-double mag(Complex z) { return abs(z); }
+double mag(const Complex &z) { return abs(z); }
