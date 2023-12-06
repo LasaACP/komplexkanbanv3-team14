@@ -30,7 +30,7 @@
 #include "../lib/real.h"
 #include "../lib/imag.h"
 
-
+#define PI 3.1415926538979323846
 #define EULER 2.71828182845904523536
 
 using namespace std;
@@ -158,6 +158,11 @@ TEST_CASE("Testing Cos", "[sin]"){
   REQUIRE(sin(Complex(3,4)) == Complex(-3.85373, -27.01861));
   REQUIRE(sin(Complex(0,2)) == Complex(0, (-1+EULER^4)/(2*EULER^2)));
   REQUIRE(sin(Complex(2,0)) == 0.90929);
+}
+
+TEST_CASE("Testing Exp", "[exp]"){
+  cout << "Running tests on exp" << endl;
+  REQUIRE(exp(Complex(3,4)) == );
 }
 
 
