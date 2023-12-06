@@ -3,24 +3,7 @@
 #include "../lib/Complex.h"
 #include "../lib/addition.h"
 #include "../lib/equality.h"
-#include "../lib/multiplication.h"
-#include "../lib/division.h"
-#include "../lib/absolutevalue.h"
-#include "../lib/complexconj.h"
-#include "../lib/argument.h"
-#include "../lib/outstream.h"
-#include "../lib/instream.h"
-#include "../lib/polar.h"
-#include "../lib/exp.h"
-#include "../lib/norm.h"
-#include "../lib/plusequals.h"
-#include "../lib/sqrt.h"
-#include "../lib/log.h"
-#include "../lib/sin.h"
-#include "../lib/real.h"
-#include "../lib/imag.h"
-#include "../lib/cos.h"
-#include "../lib/tan.h"
+
 
 using namespace std;
 #define PI 3.1415926538979323846
