@@ -39,7 +39,14 @@ add_library(MyLibrary STATIC
   ../lib/log.cpp
   ../lib/sin.cpp
   ../lib/sin.h
-  
+  ../lib/imag.h
+  ../lib/imag.cpp
+  ../lib/real.h
+  ../lib/real.cpp
+  ../lib/cos.h
+  ../lib/cos.cpp
+  ../lib/tan.h
+  ../lib/tan.cpp
 )
 
 add_executable(MyProgram

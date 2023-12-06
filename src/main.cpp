@@ -17,6 +17,10 @@
 #include "../lib/sqrt.h"
 #include "../lib/log.h"
 #include "../lib/sin.h"
+#include "../lib/real.h"
+#include "../lib/imag.h"
+#include "../lib/cos.h"
+#include "../lib/tan.h"
 
 using namespace std;
 #define PI 3.1415926538979323846

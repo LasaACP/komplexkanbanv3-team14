@@ -1,5 +1,6 @@
 #include "real.h"
 
-double real(Complex z){
+double real(const Complex &z){
+
   return z.real;
 }
