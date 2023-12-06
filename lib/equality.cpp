@@ -1,7 +1,12 @@
 #include "Complex.h" 
 #include "equality.h"
+#include <math.h>
 bool operator==(const Complex &z, const Complex &w) {
-   if(z.real == w.real && z.img == w.img){
+  double a = z.real - w.real;
+  a = fabs(a);
+  double b = z.img - w.img;
+  b = fabs(b);
+   if(a < 0.01 && b < 0.01){
      return true;
    }
   else{
@@ -9,7 +14,9 @@ bool operator==(const Complex &z, const Complex &w) {
   }
 }
 bool operator==(const Complex &z, const double &w) {
-   if(z.img == 0 && z.real == w){
+  double a = z.real - w;
+  a = fabs(a);
+   if(z.img == 0 && a < 0.01){
      return true;
    }
   else{
@@ -17,7 +24,9 @@ bool operator==(const Complex &z, const double &w) {
   }
 }
 bool operator==(const double &z, const Complex &w) {
-   if(w.img == 0 && z == w.real){
+  double a = z - w.real;
+  a = fabs(a);
+   if(w.img == 0 && a < 0.01){
      return true;
    }
   else{
