@@ -29,6 +29,8 @@
 #include "../lib/sin.h"
 #include "../lib/real.h"
 #include "../lib/imag.h"
+#include "../lib/cos.h"
+#include "../lib/tan.h"
 
 
 using namespace std;
