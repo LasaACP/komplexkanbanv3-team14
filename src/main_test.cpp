@@ -62,7 +62,7 @@ int main_test( int argc, char* argv[] ) {
 //   REQUIRE(Factorial(5) == 1);
 // }
 
-TEST_CASE("Testing Addition", "[+]")
+TEST_CASE("Testing Addition")
 {
 
   cout << "Hello Catch2 Build with Catch2 main()\n";
@@ -74,7 +74,7 @@ TEST_CASE("Testing Addition", "[+]")
   REQUIRE(Complex(3, 0) + Complex(-2, 0) == Complex(1, 0));
 }
 
-TEST_CASE("Testing Multiplication", "[*]")
+TEST_CASE("Testing Multiplication")
 {
   cout <<"Running tests on multiplication" << endl;
   REQUIRE(Complex(3,2) * Complex(3,-2) == Complex(13, 0));
@@ -84,7 +84,7 @@ TEST_CASE("Testing Multiplication", "[*]")
   REQUIRE(Complex(3, 0) * 0 == Complex(0, 0));
 }
 
-TEST_CASE("Testing Division", "[/]")
+TEST_CASE("Testing Division")
 {
   cout <<"Running tests on Division" << endl;
   REQUIRE(Complex(3,2) / Complex(3,-2) == Complex(0.38461538461, 0.92307692307));
@@ -94,7 +94,7 @@ TEST_CASE("Testing Division", "[/]")
   REQUIRE(Complex(3, 0) / 1 == Complex(3, 0));
 }
 
-TEST_CASE("Testing Absolute Value/Magnitude", "[||]")
+TEST_CASE("Testing Absolute Value/Magnitude")
 {
   cout <<"Running tests on absolute value" << endl;
   REQUIRE(abs(Complex(3,4)) == 5);
@@ -104,7 +104,7 @@ TEST_CASE("Testing Absolute Value/Magnitude", "[||]")
   REQUIRE(abs(Complex(2,-2)) == sqrt(8));
 }
 
-TEST_CASE("Testing complex conjugate", "[conj]")
+TEST_CASE("Testing complex conjugate")
 {
   cout <<"Running tests on complex conjugate" << endl;
   REQUIRE(conj(Complex(3,4)) == Complex(3,-4));
@@ -114,7 +114,7 @@ TEST_CASE("Testing complex conjugate", "[conj]")
   REQUIRE(conj(Complex(0,0)) == 0);
 }
 
-TEST_CASE("Testing argument", "[arg]")
+TEST_CASE("Testing argument")
 {
   cout <<"Running tests on argument" << endl;
   
@@ -125,7 +125,7 @@ TEST_CASE("Testing argument", "[arg]")
   
 }
 
-TEST_CASE("Testing norm", "[norm]"){
+TEST_CASE("Testing norm"){
   cout <<"Running tests on norm" << endl;
   REQUIRE(abs(Complex(3,4)) == 25);
   REQUIRE(abs(Complex(0, 2)) == 4);
