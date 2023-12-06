@@ -12,6 +12,7 @@
 #include "../tests/catch_amalgamated.hpp"
 #include "../lib/Complex.h"
 #include "../lib/addition.h"
+#include "../lib/subtraction.h"
 #include "../lib/equality.h"
 #include "../lib/multiplication.h"
 #include "../lib/division.h"
@@ -69,6 +70,16 @@ TEST_CASE("Testing Addition")
 
   cout << "Hello Catch2 Build with Catch2 main()\n";
   cout << "Running tests on addition" << endl;
+  REQUIRE(Complex(1,2) + Complex(1,2) == Complex(2, 4));
+  REQUIRE(Complex(1, -2) + Complex(1,2) == Complex(2, 0));
+  REQUIRE(Complex(-1, 2) + 3 == Complex(2, 2));
+  REQUIRE(3 + Complex(0, -5) == Complex(3,-5));
+  REQUIRE(Complex(3, 0) + Complex(-2, 0) == Complex(1, 0));
+}
+
+TEST_CASE("Testing Subtraction")
+{
+  cout << "Running tests on subtraction" << endl;
   REQUIRE(Complex(1,2) + Complex(1,2) == Complex(2, 4));
   REQUIRE(Complex(1, -2) + Complex(1,2) == Complex(2, 0));
   REQUIRE(Complex(-1, 2) + 3 == Complex(2, 2));
