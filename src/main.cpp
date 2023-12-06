@@ -12,6 +12,9 @@
 #include "../lib/instream.h"
 #include "../lib/polar.h"
 #include "../lib/exp.h"
+#include "../lib/norm.h"
+#include "../lib/plusequals.h"
+
 using namespace std;
 #define PI 3.1415926538979323846
 #define EULER 2.71828182845904523536

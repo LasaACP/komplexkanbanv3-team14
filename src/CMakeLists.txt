@@ -27,6 +27,11 @@ add_library(MyLibrary STATIC
   ../lib/polar.h
   ../lib/exp.h
   ../lib/exp.cpp
+  ../lib/norm.h
+  ../lib/norm.cpp
+  ../lib/plusequals.cpp
+  ../lib/plusequals.h
+  
 )
 
 add_executable(MyProgram
