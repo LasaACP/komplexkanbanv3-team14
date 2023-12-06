@@ -155,7 +155,7 @@ TEST_CASE("Testing Tan", "[tan]") {
   REQUIRE(tan(Complex(2, 0)) == -2.18503);
 }
 
-TEST_CASE("Testing Cos", "[cos") {
+TEST_CASE("Testing Cos", "[cos]") {
   cout << "Running tests on cos" << endl;
   REQUIRE(cos(Complex(3, 4)) == Complex(-1.56562, -3.29789));
   REQUIRE(cos(Complex(0, 2)) == 3.76219);

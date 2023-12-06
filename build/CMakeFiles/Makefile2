@@ -81,12 +81,12 @@ clean: CMakeFiles/MyProgram.dir/clean
 CMakeFiles/MyProgram.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target MyProgram"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27 "Built target MyProgram"
 .PHONY : CMakeFiles/MyProgram.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MyProgram.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles 27
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MyProgram.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles 0
 .PHONY : CMakeFiles/MyProgram.dir/rule

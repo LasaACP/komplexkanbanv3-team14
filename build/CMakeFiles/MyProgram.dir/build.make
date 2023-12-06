@@ -97,10 +97,80 @@ CMakeFiles/MyProgram.dir/tests/catch_amalgamated.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/tests/catch_amalgamated.cpp.s"
 	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/tests/catch_amalgamated.cpp -o CMakeFiles/MyProgram.dir/tests/catch_amalgamated.cpp.s
 
+CMakeFiles/MyProgram.dir/lib/absolutevalue.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/lib/absolutevalue.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/absolutevalue.cpp
+CMakeFiles/MyProgram.dir/lib/absolutevalue.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyProgram.dir/lib/absolutevalue.cpp.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/absolutevalue.cpp.o -MF CMakeFiles/MyProgram.dir/lib/absolutevalue.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/absolutevalue.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/absolutevalue.cpp
+
+CMakeFiles/MyProgram.dir/lib/absolutevalue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/absolutevalue.cpp.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/absolutevalue.cpp > CMakeFiles/MyProgram.dir/lib/absolutevalue.cpp.i
+
+CMakeFiles/MyProgram.dir/lib/absolutevalue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/absolutevalue.cpp.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/absolutevalue.cpp -o CMakeFiles/MyProgram.dir/lib/absolutevalue.cpp.s
+
+CMakeFiles/MyProgram.dir/lib/cos.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/lib/cos.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/cos.cpp
+CMakeFiles/MyProgram.dir/lib/cos.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyProgram.dir/lib/cos.cpp.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/cos.cpp.o -MF CMakeFiles/MyProgram.dir/lib/cos.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/cos.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/cos.cpp
+
+CMakeFiles/MyProgram.dir/lib/cos.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/cos.cpp.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/cos.cpp > CMakeFiles/MyProgram.dir/lib/cos.cpp.i
+
+CMakeFiles/MyProgram.dir/lib/cos.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/cos.cpp.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/cos.cpp -o CMakeFiles/MyProgram.dir/lib/cos.cpp.s
+
+CMakeFiles/MyProgram.dir/lib/instream.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/lib/instream.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/instream.cpp
+CMakeFiles/MyProgram.dir/lib/instream.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyProgram.dir/lib/instream.cpp.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/instream.cpp.o -MF CMakeFiles/MyProgram.dir/lib/instream.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/instream.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/instream.cpp
+
+CMakeFiles/MyProgram.dir/lib/instream.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/instream.cpp.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/instream.cpp > CMakeFiles/MyProgram.dir/lib/instream.cpp.i
+
+CMakeFiles/MyProgram.dir/lib/instream.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/instream.cpp.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/instream.cpp -o CMakeFiles/MyProgram.dir/lib/instream.cpp.s
+
+CMakeFiles/MyProgram.dir/lib/norm.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/lib/norm.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/norm.cpp
+CMakeFiles/MyProgram.dir/lib/norm.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MyProgram.dir/lib/norm.cpp.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/norm.cpp.o -MF CMakeFiles/MyProgram.dir/lib/norm.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/norm.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/norm.cpp
+
+CMakeFiles/MyProgram.dir/lib/norm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/norm.cpp.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/norm.cpp > CMakeFiles/MyProgram.dir/lib/norm.cpp.i
+
+CMakeFiles/MyProgram.dir/lib/norm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/norm.cpp.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/norm.cpp -o CMakeFiles/MyProgram.dir/lib/norm.cpp.s
+
+CMakeFiles/MyProgram.dir/lib/sin.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/lib/sin.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/sin.cpp
+CMakeFiles/MyProgram.dir/lib/sin.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MyProgram.dir/lib/sin.cpp.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/sin.cpp.o -MF CMakeFiles/MyProgram.dir/lib/sin.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/sin.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/sin.cpp
+
+CMakeFiles/MyProgram.dir/lib/sin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/sin.cpp.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/sin.cpp > CMakeFiles/MyProgram.dir/lib/sin.cpp.i
+
+CMakeFiles/MyProgram.dir/lib/sin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/sin.cpp.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/sin.cpp -o CMakeFiles/MyProgram.dir/lib/sin.cpp.s
+
 CMakeFiles/MyProgram.dir/lib/addition.cpp.o: CMakeFiles/MyProgram.dir/flags.make
 CMakeFiles/MyProgram.dir/lib/addition.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/addition.cpp
 CMakeFiles/MyProgram.dir/lib/addition.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyProgram.dir/lib/addition.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MyProgram.dir/lib/addition.cpp.o"
 	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/addition.cpp.o -MF CMakeFiles/MyProgram.dir/lib/addition.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/addition.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/addition.cpp
 
 CMakeFiles/MyProgram.dir/lib/addition.cpp.i: cmake_force
@@ -111,24 +181,80 @@ CMakeFiles/MyProgram.dir/lib/addition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/addition.cpp.s"
 	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/addition.cpp -o CMakeFiles/MyProgram.dir/lib/addition.cpp.s
 
-CMakeFiles/MyProgram.dir/lib/Complex.cpp.o: CMakeFiles/MyProgram.dir/flags.make
-CMakeFiles/MyProgram.dir/lib/Complex.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/Complex.cpp
-CMakeFiles/MyProgram.dir/lib/Complex.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyProgram.dir/lib/Complex.cpp.o"
-	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/Complex.cpp.o -MF CMakeFiles/MyProgram.dir/lib/Complex.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/Complex.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/Complex.cpp
+CMakeFiles/MyProgram.dir/lib/division.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/lib/division.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/division.cpp
+CMakeFiles/MyProgram.dir/lib/division.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MyProgram.dir/lib/division.cpp.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/division.cpp.o -MF CMakeFiles/MyProgram.dir/lib/division.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/division.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/division.cpp
 
-CMakeFiles/MyProgram.dir/lib/Complex.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/Complex.cpp.i"
-	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/Complex.cpp > CMakeFiles/MyProgram.dir/lib/Complex.cpp.i
+CMakeFiles/MyProgram.dir/lib/division.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/division.cpp.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/division.cpp > CMakeFiles/MyProgram.dir/lib/division.cpp.i
 
-CMakeFiles/MyProgram.dir/lib/Complex.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/Complex.cpp.s"
-	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/Complex.cpp -o CMakeFiles/MyProgram.dir/lib/Complex.cpp.s
+CMakeFiles/MyProgram.dir/lib/division.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/division.cpp.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/division.cpp -o CMakeFiles/MyProgram.dir/lib/division.cpp.s
+
+CMakeFiles/MyProgram.dir/lib/log.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/lib/log.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/log.cpp
+CMakeFiles/MyProgram.dir/lib/log.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MyProgram.dir/lib/log.cpp.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/log.cpp.o -MF CMakeFiles/MyProgram.dir/lib/log.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/log.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/log.cpp
+
+CMakeFiles/MyProgram.dir/lib/log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/log.cpp.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/log.cpp > CMakeFiles/MyProgram.dir/lib/log.cpp.i
+
+CMakeFiles/MyProgram.dir/lib/log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/log.cpp.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/log.cpp -o CMakeFiles/MyProgram.dir/lib/log.cpp.s
+
+CMakeFiles/MyProgram.dir/lib/outstream.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/lib/outstream.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/outstream.cpp
+CMakeFiles/MyProgram.dir/lib/outstream.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MyProgram.dir/lib/outstream.cpp.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/outstream.cpp.o -MF CMakeFiles/MyProgram.dir/lib/outstream.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/outstream.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/outstream.cpp
+
+CMakeFiles/MyProgram.dir/lib/outstream.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/outstream.cpp.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/outstream.cpp > CMakeFiles/MyProgram.dir/lib/outstream.cpp.i
+
+CMakeFiles/MyProgram.dir/lib/outstream.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/outstream.cpp.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/outstream.cpp -o CMakeFiles/MyProgram.dir/lib/outstream.cpp.s
+
+CMakeFiles/MyProgram.dir/lib/sqrt.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/lib/sqrt.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/sqrt.cpp
+CMakeFiles/MyProgram.dir/lib/sqrt.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MyProgram.dir/lib/sqrt.cpp.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/sqrt.cpp.o -MF CMakeFiles/MyProgram.dir/lib/sqrt.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/sqrt.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/sqrt.cpp
+
+CMakeFiles/MyProgram.dir/lib/sqrt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/sqrt.cpp.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/sqrt.cpp > CMakeFiles/MyProgram.dir/lib/sqrt.cpp.i
+
+CMakeFiles/MyProgram.dir/lib/sqrt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/sqrt.cpp.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/sqrt.cpp -o CMakeFiles/MyProgram.dir/lib/sqrt.cpp.s
+
+CMakeFiles/MyProgram.dir/lib/argument.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/lib/argument.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/argument.cpp
+CMakeFiles/MyProgram.dir/lib/argument.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MyProgram.dir/lib/argument.cpp.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/argument.cpp.o -MF CMakeFiles/MyProgram.dir/lib/argument.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/argument.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/argument.cpp
+
+CMakeFiles/MyProgram.dir/lib/argument.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/argument.cpp.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/argument.cpp > CMakeFiles/MyProgram.dir/lib/argument.cpp.i
+
+CMakeFiles/MyProgram.dir/lib/argument.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/argument.cpp.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/argument.cpp -o CMakeFiles/MyProgram.dir/lib/argument.cpp.s
 
 CMakeFiles/MyProgram.dir/lib/equality.cpp.o: CMakeFiles/MyProgram.dir/flags.make
 CMakeFiles/MyProgram.dir/lib/equality.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/equality.cpp
 CMakeFiles/MyProgram.dir/lib/equality.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyProgram.dir/lib/equality.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MyProgram.dir/lib/equality.cpp.o"
 	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/equality.cpp.o -MF CMakeFiles/MyProgram.dir/lib/equality.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/equality.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/equality.cpp
 
 CMakeFiles/MyProgram.dir/lib/equality.cpp.i: cmake_force
@@ -139,25 +265,235 @@ CMakeFiles/MyProgram.dir/lib/equality.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/equality.cpp.s"
 	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/equality.cpp -o CMakeFiles/MyProgram.dir/lib/equality.cpp.s
 
+CMakeFiles/MyProgram.dir/lib/minusequals.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/lib/minusequals.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/minusequals.cpp
+CMakeFiles/MyProgram.dir/lib/minusequals.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MyProgram.dir/lib/minusequals.cpp.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/minusequals.cpp.o -MF CMakeFiles/MyProgram.dir/lib/minusequals.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/minusequals.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/minusequals.cpp
+
+CMakeFiles/MyProgram.dir/lib/minusequals.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/minusequals.cpp.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/minusequals.cpp > CMakeFiles/MyProgram.dir/lib/minusequals.cpp.i
+
+CMakeFiles/MyProgram.dir/lib/minusequals.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/minusequals.cpp.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/minusequals.cpp -o CMakeFiles/MyProgram.dir/lib/minusequals.cpp.s
+
+CMakeFiles/MyProgram.dir/lib/plusequals.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/lib/plusequals.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/plusequals.cpp
+CMakeFiles/MyProgram.dir/lib/plusequals.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MyProgram.dir/lib/plusequals.cpp.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/plusequals.cpp.o -MF CMakeFiles/MyProgram.dir/lib/plusequals.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/plusequals.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/plusequals.cpp
+
+CMakeFiles/MyProgram.dir/lib/plusequals.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/plusequals.cpp.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/plusequals.cpp > CMakeFiles/MyProgram.dir/lib/plusequals.cpp.i
+
+CMakeFiles/MyProgram.dir/lib/plusequals.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/plusequals.cpp.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/plusequals.cpp -o CMakeFiles/MyProgram.dir/lib/plusequals.cpp.s
+
+CMakeFiles/MyProgram.dir/lib/subtraction.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/lib/subtraction.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/subtraction.cpp
+CMakeFiles/MyProgram.dir/lib/subtraction.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MyProgram.dir/lib/subtraction.cpp.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/subtraction.cpp.o -MF CMakeFiles/MyProgram.dir/lib/subtraction.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/subtraction.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/subtraction.cpp
+
+CMakeFiles/MyProgram.dir/lib/subtraction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/subtraction.cpp.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/subtraction.cpp > CMakeFiles/MyProgram.dir/lib/subtraction.cpp.i
+
+CMakeFiles/MyProgram.dir/lib/subtraction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/subtraction.cpp.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/subtraction.cpp -o CMakeFiles/MyProgram.dir/lib/subtraction.cpp.s
+
+CMakeFiles/MyProgram.dir/lib/complexconj.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/lib/complexconj.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/complexconj.cpp
+CMakeFiles/MyProgram.dir/lib/complexconj.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MyProgram.dir/lib/complexconj.cpp.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/complexconj.cpp.o -MF CMakeFiles/MyProgram.dir/lib/complexconj.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/complexconj.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/complexconj.cpp
+
+CMakeFiles/MyProgram.dir/lib/complexconj.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/complexconj.cpp.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/complexconj.cpp > CMakeFiles/MyProgram.dir/lib/complexconj.cpp.i
+
+CMakeFiles/MyProgram.dir/lib/complexconj.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/complexconj.cpp.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/complexconj.cpp -o CMakeFiles/MyProgram.dir/lib/complexconj.cpp.s
+
+CMakeFiles/MyProgram.dir/lib/exp.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/lib/exp.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/exp.cpp
+CMakeFiles/MyProgram.dir/lib/exp.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/MyProgram.dir/lib/exp.cpp.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/exp.cpp.o -MF CMakeFiles/MyProgram.dir/lib/exp.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/exp.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/exp.cpp
+
+CMakeFiles/MyProgram.dir/lib/exp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/exp.cpp.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/exp.cpp > CMakeFiles/MyProgram.dir/lib/exp.cpp.i
+
+CMakeFiles/MyProgram.dir/lib/exp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/exp.cpp.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/exp.cpp -o CMakeFiles/MyProgram.dir/lib/exp.cpp.s
+
+CMakeFiles/MyProgram.dir/lib/multequals.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/lib/multequals.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/multequals.cpp
+CMakeFiles/MyProgram.dir/lib/multequals.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/MyProgram.dir/lib/multequals.cpp.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/multequals.cpp.o -MF CMakeFiles/MyProgram.dir/lib/multequals.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/multequals.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/multequals.cpp
+
+CMakeFiles/MyProgram.dir/lib/multequals.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/multequals.cpp.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/multequals.cpp > CMakeFiles/MyProgram.dir/lib/multequals.cpp.i
+
+CMakeFiles/MyProgram.dir/lib/multequals.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/multequals.cpp.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/multequals.cpp -o CMakeFiles/MyProgram.dir/lib/multequals.cpp.s
+
+CMakeFiles/MyProgram.dir/lib/polar.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/lib/polar.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/polar.cpp
+CMakeFiles/MyProgram.dir/lib/polar.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/MyProgram.dir/lib/polar.cpp.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/polar.cpp.o -MF CMakeFiles/MyProgram.dir/lib/polar.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/polar.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/polar.cpp
+
+CMakeFiles/MyProgram.dir/lib/polar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/polar.cpp.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/polar.cpp > CMakeFiles/MyProgram.dir/lib/polar.cpp.i
+
+CMakeFiles/MyProgram.dir/lib/polar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/polar.cpp.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/polar.cpp -o CMakeFiles/MyProgram.dir/lib/polar.cpp.s
+
+CMakeFiles/MyProgram.dir/lib/tan.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/lib/tan.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/tan.cpp
+CMakeFiles/MyProgram.dir/lib/tan.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/MyProgram.dir/lib/tan.cpp.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/tan.cpp.o -MF CMakeFiles/MyProgram.dir/lib/tan.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/tan.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/tan.cpp
+
+CMakeFiles/MyProgram.dir/lib/tan.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/tan.cpp.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/tan.cpp > CMakeFiles/MyProgram.dir/lib/tan.cpp.i
+
+CMakeFiles/MyProgram.dir/lib/tan.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/tan.cpp.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/tan.cpp -o CMakeFiles/MyProgram.dir/lib/tan.cpp.s
+
+CMakeFiles/MyProgram.dir/lib/Complex.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/lib/Complex.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/Complex.cpp
+CMakeFiles/MyProgram.dir/lib/Complex.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/MyProgram.dir/lib/Complex.cpp.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/Complex.cpp.o -MF CMakeFiles/MyProgram.dir/lib/Complex.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/Complex.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/Complex.cpp
+
+CMakeFiles/MyProgram.dir/lib/Complex.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/Complex.cpp.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/Complex.cpp > CMakeFiles/MyProgram.dir/lib/Complex.cpp.i
+
+CMakeFiles/MyProgram.dir/lib/Complex.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/Complex.cpp.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/Complex.cpp -o CMakeFiles/MyProgram.dir/lib/Complex.cpp.s
+
+CMakeFiles/MyProgram.dir/lib/imag.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/lib/imag.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/imag.cpp
+CMakeFiles/MyProgram.dir/lib/imag.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/MyProgram.dir/lib/imag.cpp.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/imag.cpp.o -MF CMakeFiles/MyProgram.dir/lib/imag.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/imag.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/imag.cpp
+
+CMakeFiles/MyProgram.dir/lib/imag.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/imag.cpp.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/imag.cpp > CMakeFiles/MyProgram.dir/lib/imag.cpp.i
+
+CMakeFiles/MyProgram.dir/lib/imag.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/imag.cpp.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/imag.cpp -o CMakeFiles/MyProgram.dir/lib/imag.cpp.s
+
+CMakeFiles/MyProgram.dir/lib/multiplication.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/lib/multiplication.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/multiplication.cpp
+CMakeFiles/MyProgram.dir/lib/multiplication.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/MyProgram.dir/lib/multiplication.cpp.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/multiplication.cpp.o -MF CMakeFiles/MyProgram.dir/lib/multiplication.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/multiplication.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/multiplication.cpp
+
+CMakeFiles/MyProgram.dir/lib/multiplication.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/multiplication.cpp.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/multiplication.cpp > CMakeFiles/MyProgram.dir/lib/multiplication.cpp.i
+
+CMakeFiles/MyProgram.dir/lib/multiplication.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/multiplication.cpp.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/multiplication.cpp -o CMakeFiles/MyProgram.dir/lib/multiplication.cpp.s
+
+CMakeFiles/MyProgram.dir/lib/real.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/lib/real.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/real.cpp
+CMakeFiles/MyProgram.dir/lib/real.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/MyProgram.dir/lib/real.cpp.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/real.cpp.o -MF CMakeFiles/MyProgram.dir/lib/real.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/real.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/real.cpp
+
+CMakeFiles/MyProgram.dir/lib/real.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/real.cpp.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/real.cpp > CMakeFiles/MyProgram.dir/lib/real.cpp.i
+
+CMakeFiles/MyProgram.dir/lib/real.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/real.cpp.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/real.cpp -o CMakeFiles/MyProgram.dir/lib/real.cpp.s
+
 # Object files for target MyProgram
 MyProgram_OBJECTS = \
 "CMakeFiles/MyProgram.dir/src/main_test.cpp.o" \
 "CMakeFiles/MyProgram.dir/tests/catch_amalgamated.cpp.o" \
+"CMakeFiles/MyProgram.dir/lib/absolutevalue.cpp.o" \
+"CMakeFiles/MyProgram.dir/lib/cos.cpp.o" \
+"CMakeFiles/MyProgram.dir/lib/instream.cpp.o" \
+"CMakeFiles/MyProgram.dir/lib/norm.cpp.o" \
+"CMakeFiles/MyProgram.dir/lib/sin.cpp.o" \
 "CMakeFiles/MyProgram.dir/lib/addition.cpp.o" \
+"CMakeFiles/MyProgram.dir/lib/division.cpp.o" \
+"CMakeFiles/MyProgram.dir/lib/log.cpp.o" \
+"CMakeFiles/MyProgram.dir/lib/outstream.cpp.o" \
+"CMakeFiles/MyProgram.dir/lib/sqrt.cpp.o" \
+"CMakeFiles/MyProgram.dir/lib/argument.cpp.o" \
+"CMakeFiles/MyProgram.dir/lib/equality.cpp.o" \
+"CMakeFiles/MyProgram.dir/lib/minusequals.cpp.o" \
+"CMakeFiles/MyProgram.dir/lib/plusequals.cpp.o" \
+"CMakeFiles/MyProgram.dir/lib/subtraction.cpp.o" \
+"CMakeFiles/MyProgram.dir/lib/complexconj.cpp.o" \
+"CMakeFiles/MyProgram.dir/lib/exp.cpp.o" \
+"CMakeFiles/MyProgram.dir/lib/multequals.cpp.o" \
+"CMakeFiles/MyProgram.dir/lib/polar.cpp.o" \
+"CMakeFiles/MyProgram.dir/lib/tan.cpp.o" \
 "CMakeFiles/MyProgram.dir/lib/Complex.cpp.o" \
-"CMakeFiles/MyProgram.dir/lib/equality.cpp.o"
+"CMakeFiles/MyProgram.dir/lib/imag.cpp.o" \
+"CMakeFiles/MyProgram.dir/lib/multiplication.cpp.o" \
+"CMakeFiles/MyProgram.dir/lib/real.cpp.o"
 
 # External object files for target MyProgram
 MyProgram_EXTERNAL_OBJECTS =
 
 MyProgram: CMakeFiles/MyProgram.dir/src/main_test.cpp.o
 MyProgram: CMakeFiles/MyProgram.dir/tests/catch_amalgamated.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/lib/absolutevalue.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/lib/cos.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/lib/instream.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/lib/norm.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/lib/sin.cpp.o
 MyProgram: CMakeFiles/MyProgram.dir/lib/addition.cpp.o
-MyProgram: CMakeFiles/MyProgram.dir/lib/Complex.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/lib/division.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/lib/log.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/lib/outstream.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/lib/sqrt.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/lib/argument.cpp.o
 MyProgram: CMakeFiles/MyProgram.dir/lib/equality.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/lib/minusequals.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/lib/plusequals.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/lib/subtraction.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/lib/complexconj.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/lib/exp.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/lib/multequals.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/lib/polar.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/lib/tan.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/lib/Complex.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/lib/imag.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/lib/multiplication.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/lib/real.cpp.o
 MyProgram: CMakeFiles/MyProgram.dir/build.make
 MyProgram: CMakeFiles/MyProgram.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable MyProgram"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable MyProgram"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyProgram.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
