@@ -80,11 +80,11 @@ TEST_CASE("Testing Addition")
 TEST_CASE("Testing Subtraction")
 {
   cout << "Running tests on subtraction" << endl;
-  REQUIRE(Complex(1,2) + Complex(1,2) == Complex(2, 4));
-  REQUIRE(Complex(1, -2) + Complex(1,2) == Complex(2, 0));
-  REQUIRE(Complex(-1, 2) + 3 == Complex(2, 2));
-  REQUIRE(3 + Complex(0, -5) == Complex(3,-5));
-  REQUIRE(Complex(3, 0) + Complex(-2, 0) == Complex(1, 0));
+  REQUIRE(Complex(1,2) - Complex(1,2) == Complex(0, 0));
+  REQUIRE(Complex(1, -2) - Complex(1,2) == Complex(0, -2));
+  REQUIRE(Complex(-1, 2) - 3 == Complex(-4, 2));
+  REQUIRE(3 - Complex(0, -5) == Complex(3, 5));
+  REQUIRE(Complex(3, 0) - Complex(-2, 0) == Complex(5, 0));
 }
 
 TEST_CASE("Testing Multiplication")
