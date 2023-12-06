@@ -33,6 +33,11 @@ add_library(MyLibrary STATIC
   ../lib/plusequals.h
   ../lib/sqrt.cpp
   ../lib/sqrt.h
+  ../lib/log.h
+  ../lib/log.cpp
+  ../lib/sin.cpp
+  ../lib/sin.h
+  
 )
 
 add_executable(MyProgram

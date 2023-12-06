@@ -6,8 +6,8 @@
 */
 
 
-//#define CATCH_CONFIG_RUNNER
-//#define CATCH_AMALGAMATED_CUSTOM_MAIN
+#define CATCH_CONFIG_RUNNER
+#define CATCH_AMALGAMATED_CUSTOM_MAIN
 #include <iostream>
 #include "../tests/catch_amalgamated.hpp"
 #include "../lib/Complex.h"
@@ -25,6 +25,8 @@
 #include "../lib/norm.h"
 #include "../lib/plusequals.h"
 #include "../lib/sqrt.h"
+#include "../lib/log.h"
+#include "../lib/sin.h"
 
 
 
@@ -65,7 +67,7 @@ TEST_CASE("Testing Addition", "[+]")
   REQUIRE(Complex(1,2) + Complex(1,2) == Complex(2, 4));
   REQUIRE(Complex(1, -2) + Complex(1,2) == Complex(2, 0));
   REQUIRE(Complex(-1, 2) + 3 == Complex(2, 2));
-  REQUIRE(Complex(0, 5) + Complex(0, -5) == Complex(0,0));
+  REQUIRE(3 + Complex(0, -5) == Complex(3,-5));
   REQUIRE(Complex(3, 0) + Complex(-2, 0) == Complex(1, 0));
 }
 
@@ -120,5 +122,19 @@ TEST_CASE("Testing argument", "[arg]")
   
 }
 
+TEST_CASE("Testing norm", "[norm]"){
+  cout <<"Running tests on norm" << endl;
+  REQUIRE(abs(Complex(3,4)) == 25);
+  REQUIRE(abs(Complex(0, 2)) == 4);
+  REQUIRE(abs(Complex(-1, 2)) == 5);
+  REQUIRE(abs(Complex(5, 0)) == 25);
+  REQUIRE(abs(Complex(2,-2)) == 8);
+}
+
+TEST_CASE("Testing Polar", "[polar]"){
+  cout << "Running tests on polar" << endl;
+  // REQUIRE(polar(Complex(3,4)) == )
+}
+  
 // */
 #endif  //ifndef CATCH_AMALGAMATED_CUSTOM_MAIN
