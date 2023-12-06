@@ -12,6 +12,7 @@
 #include "../tests/catch_amalgamated.hpp"
 #include "../lib/Complex.h"
 #include "../lib/addition.h"
+#include "../lib/subtraction.h"
 #include "../lib/equality.h"
 #include "../lib/multiplication.h"
 #include "../lib/division.h"
@@ -32,6 +33,8 @@
 #include "../lib/cos.h"
 #include "../lib/tan.h"
 
+#define PI 3.1415926538979323846
+#define EULER 2.71828182845904523536
 
 using namespace std;
 
@@ -66,6 +69,16 @@ TEST_CASE("Testing Addition")
 
   cout << "Hello Catch2 Build with Catch2 main()\n";
   cout << "Running tests on addition" << endl;
+  REQUIRE(Complex(1,2) + Complex(1,2) == Complex(2, 4));
+  REQUIRE(Complex(1, -2) + Complex(1,2) == Complex(2, 0));
+  REQUIRE(Complex(-1, 2) + 3 == Complex(2, 2));
+  REQUIRE(3 + Complex(0, -5) == Complex(3,-5));
+  REQUIRE(Complex(3, 0) + Complex(-2, 0) == Complex(1, 0));
+}
+
+TEST_CASE("Testing Subtraction")
+{
+  cout << "Running tests on subtraction" << endl;
   REQUIRE(Complex(1,2) + Complex(1,2) == Complex(2, 4));
   REQUIRE(Complex(1, -2) + Complex(1,2) == Complex(2, 0));
   REQUIRE(Complex(-1, 2) + 3 == Complex(2, 2));
@@ -137,6 +150,34 @@ TEST_CASE("Testing Polar", "[polar]"){
   cout << "Running tests on polar" << endl;
   // REQUIRE(polar(Complex(3,4)) == )
 }
+
+TEST_CASE("Testing Tan", "[tan]"){
+  cout << "Running tests on tan" << endl;
+  REQUIRE(tan(Complex(3,4)) == Complex(-0.00018, 0.99935));
+  REQUIRE(tan(Complex(0,2)) == Complex(0, 0.96402));
+  REQUIRE(tan(Complex(2,0)) == -2.18503);
+}
+
+TEST_CASE ("Testing Cos", "[cos"){
+  cout << "Running tests on cos" << endl;
+  REQUIRE(cos(Complex(3,4)) == Complex(-1.56562, -3.29789));
+  REQUIRE(cos(Complex(0,2)) == 3.76219);
+  REQUIRE(cos(Complex(2,0)) == -0.41614);
+}
+
+TEST_CASE("Testing Cos", "[sin]"){
+  cout << "Running tests on sin" << endl;
+  REQUIRE(sin(Complex(3,4)) == Complex(-3.85373, -27.01861));
+  REQUIRE(sin(Complex(0,2)) == Complex(0, (-1+EULER^4)/(2*EULER^2)));
+  REQUIRE(sin(Complex(2,0)) == 0.90929);
+}
+
+TEST_CASE("Testing Exp", "[exp]"){
+  cout << "Running tests on exp" << endl;
+  REQUIRE(exp(Complex(3,4)) == );
+}
+
+
   
 // */
 
