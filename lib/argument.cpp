@@ -2,6 +2,6 @@
 #include "argument.h"
 #include <cmath>
 
-double arg(const Complex &z){
+double arg(Complex z){
   return atan(z.img/z.real);
 };

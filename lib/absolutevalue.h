@@ -1,3 +1,3 @@
 #include "Complex.h"
 
-double abs(const Complex &z);
+double abs(Complex z);

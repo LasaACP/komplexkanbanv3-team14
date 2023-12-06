@@ -1,29 +1,46 @@
 #include <cstdlib>
 #include <iostream>
 #include "../lib/Complex.h"
+#include "../lib/addition.h"
+#include "../lib/equality.h"
+#include "../lib/multiplication.h"
+#include "../lib/division.h"
+#include "../lib/absolutevalue.h"
+#include "../lib/complexconj.h"
+#include "../lib/argument.h"
+#include "../lib/outstream.h"
+#include "../lib/instream.h"
+#include "../lib/polar.h"
+#include "../lib/exp.h"
+#include "../lib/norm.h"
+#include "../lib/plusequals.h"
+#include "../lib/sqrt.h"
+#include "../lib/log.h"
+#include "../lib/sin.h"
 
+using namespace std;
 #define PI 3.1415926538979323846
 #define EULER 2.71828182845904523536
 
-int main () {
-    std::cout << "Hello World" << std::endl;
+int main_2 () {
+    cout << "Hello World" << endl;
 
     Complex a(5.0,6.0),b;
 
-    std::cout << "Enter b: ";
-    std::cin >> b;
+    cout << "Enter b: ";
+    cin >> b;
 
-    std::cout << "a = " << a << "\n";
-    std::cout << "b = " << b << "\n";
+    cout << "a = " << a << "\n";
+    cout << "b = " << b << "\n";
 
-    std::cout << "a + b = " << a + b << "\n";
-    std::cout << "a * b = " << a * b << "\n";
-    std::cout << "a / b = " << a / b << "\n";
-    std::cout << "|a| = "   << abs(a) << "\n";
-    std::cout << "complex conjugate of a = " << conj(a) << "\n";
-    std::cout << "norm of a = " << norm(a) << "\n";
-    std::cout << "abs of a = " << abs(a) << "\n";
-    std::cout << "exp(a) = " << exp(a) << "\n";
+    cout << "a + b = " << a + b << "\n";
+    cout << "a * b = " << a * b << "\n";
+    cout << "a / b = " << a / b << "\n";
+    cout << "|a| = "   << abs(a) << "\n";
+    cout << "complex conjugate of a = " << conj(a) << "\n";
+    cout << "norm of a = " << norm(a) << "\n";
+    cout << "abs of a = " << abs(a) << "\n";
+    cout << "exp(a) = " << exp(a) << "\n";
 
     Complex j = Complex(0.0,1.0);
     Complex z1 = 1+2*j;
