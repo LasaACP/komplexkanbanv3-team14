@@ -145,7 +145,9 @@ TEST_CASE("Testing norm") {
 
 TEST_CASE("Testing Polar", "[polar]") {
   cout << "Running tests on polar" << endl;
-  // REQUIRE(polar(Complex(3,4)) == )
+  REQUIRE(polar(1,PI) == Complex(-1,0));
+  REQUIRE(polar(4,PI/2) == Complex(0,4));
+  REQUIRE(polar(sqrt(2),PI/4) == Complex(1,1));
 }
 
 TEST_CASE("Testing Tan", "[tan]") {
@@ -191,6 +193,12 @@ TEST_CASE("Testing plusequals", "[plusequals]") {
   REQUIRE((Complex(1, -2) += Complex(1, 2)) == Complex(2, 0));
   REQUIRE((Complex(-1, 2) += 3) == Complex(2, 2));
   REQUIRE((3 += Complex(1, -2)) == Complex(4,-2));
+}
+TEST_CASE("Testing Sqrt", "[sqrt]") {
+  cout << "Running tests on sqrt" << endl;
+  REQUIRE(sqrt(polar(2,PI/4)) == polar(sqrt(2), PI/8));
+  REQUIRE(sqrt(polar(1,PI)) == polar(1, PI/2));
+  REQUIRE(sqrt(polar(4,PI/2)) == polar(2, PI/4));
 }
 
 // */
