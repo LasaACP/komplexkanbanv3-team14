@@ -25,6 +25,8 @@ add_library(MyLibrary STATIC
   ../lib/instream.h
   ../lib/polar.cpp
   ../lib/polar.h
+  ../lib/exp.h
+  ../lib/exp.cpp
 )
 
 add_executable(MyProgram

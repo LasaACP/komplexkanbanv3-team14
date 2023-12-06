@@ -1,3 +1,3 @@
 #include "Complex.h"
 
-Complex conj(const Complex &z);
+Complex conj(Complex z);

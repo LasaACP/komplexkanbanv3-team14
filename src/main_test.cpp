@@ -21,6 +21,7 @@
 #include "../lib/outstream.h"
 #include "../lib/instream.h"
 #include "../lib/polar.h"
+#include "../lib/exp.h"
 
 
 using namespace std;
