@@ -5,8 +5,8 @@ CMakeFiles/MyProgram.dir/src/main_test.cpp.o: \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/absolutevalue.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/Complex.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/addition.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/argument.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/complexconj.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/arg.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/conj.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/cos.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/polar.h \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/cmath \

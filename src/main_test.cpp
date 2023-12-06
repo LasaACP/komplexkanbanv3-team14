@@ -81,7 +81,7 @@ TEST_CASE("Testing Addition") {
 TEST_CASE("Testing Subtraction") {
   cout << "Running tests on subtraction" << endl;
   REQUIRE(Complex(1, 2) - Complex(1, 2) == Complex(0, 0));
-  REQUIRE(Complex(1, -2) - Complex(1, 2) == Complex(0, -2));
+  REQUIRE(Complex(1, -2) - Complex(1, 2) == Complex(0, -4));
   REQUIRE(Complex(-1, 2) - 3 == Complex(-4, 2));
   REQUIRE(3 - Complex(0, -5) == Complex(3, 5));
   REQUIRE(Complex(3, 0) - Complex(-2, 0) == Complex(5, 0));
@@ -91,7 +91,7 @@ TEST_CASE("Testing Multiplication") {
   cout << "Running tests on multiplication" << endl;
   REQUIRE(Complex(3, 2) * Complex(3, -2) == Complex(13, 0));
   REQUIRE(Complex(3, 2) * Complex(3, 2) == Complex(5, 12));
-  REQUIRE(Complex(-1, 2) * Complex(1, 8) == Complex(-17, 6));
+  REQUIRE(Complex(-1, 2) * Complex(1, 8) == Complex(-17, -6));
   REQUIRE(Complex(0, 5) * 3 == Complex(0, 15));
   REQUIRE(Complex(3, 0) * 0 == Complex(0, 0));
 }
@@ -128,19 +128,19 @@ TEST_CASE("Testing complex conjugate") {
 TEST_CASE("Testing argument") {
   cout << "Running tests on argument" << endl;
 
-  REQUIRE(arg(Complex(3, 4)) == atan(4 / 3));
-  REQUIRE(arg(Complex(0, 2)) == M_PI / 2);
-  REQUIRE(arg(Complex(4, 5)) == atan(5 / 4));
+  REQUIRE(arg(Complex(3, 4)) == atan(4.0 / 3.0));
+  REQUIRE(arg(Complex(0, 2)) == M_PI / 2.0);
+  REQUIRE(arg(Complex(4, 5)) == atan(5.0 / 4.0));
   REQUIRE(arg(Complex(2, 0)) == 0);
 }
 
 TEST_CASE("Testing norm") {
   cout << "Running tests on norm" << endl;
-  REQUIRE(abs(Complex(3, 4)) == 25);
-  REQUIRE(abs(Complex(0, 2)) == 4);
-  REQUIRE(abs(Complex(-1, 2)) == 5);
-  REQUIRE(abs(Complex(5, 0)) == 25);
-  REQUIRE(abs(Complex(2, -2)) == 8);
+  REQUIRE(norm(Complex(3, 4)) == 25);
+  REQUIRE(norm(Complex(0, 2)) == 4);
+  REQUIRE(norm(Complex(-1, 2)) == 5);
+  REQUIRE(norm(Complex(5, 0)) == 25);
+  REQUIRE(norm(Complex(2, -2)) == 8);
 }
 
 TEST_CASE("Testing Polar", "[polar]") {
@@ -157,14 +157,14 @@ TEST_CASE("Testing Tan", "[tan]") {
 
 TEST_CASE("Testing Cos", "[cos]") {
   cout << "Running tests on cos" << endl;
-  REQUIRE(cos(Complex(3, 4)) == Complex(-1.56562, -3.29789));
+  REQUIRE(cos(Complex(3, 4)) == Complex(-27.03, 3.85));
   REQUIRE(cos(Complex(0, 2)) == 3.76219);
   REQUIRE(cos(Complex(2, 0)) == -0.41614);
 }
 
 TEST_CASE("Testing Sin", "[sin]") {
   cout << "Running tests on sin" << endl;
-  REQUIRE(sin(Complex(3, 4)) == Complex(-3.85373, -27.01861));
+  REQUIRE(sin(Complex(3, 4)) == Complex(3.85373, -27.01861));
   REQUIRE(sin(Complex(0, 2)) ==
           Complex(0, (-1 + pow(EULER, 4)) / (2 * pow(EULER, 2))));
   REQUIRE(sin(Complex(2, 0)) == 0.90929);
@@ -172,14 +172,15 @@ TEST_CASE("Testing Sin", "[sin]") {
 
 TEST_CASE("Testing Exp", "[exp]") {
   cout << "Running tests on exp" << endl;
-  REQUIRE(exp(Complex(3, 4)) == 0);
+  REQUIRE(exp(Complex(3, 4)) == Complex(-13.12, -15.20));
+  REQUIRE(exp(Complex(0,2)) == Complex(cos(2),sin(2)));
 } // someone make this work I dont know how do
 
 TEST_CASE("Testing multequals", "[multequals]") {
   cout << "Running tests on multequals" << endl;
   REQUIRE((Complex(3, 2) *= Complex(3, -2)) == Complex(13, 0));
   REQUIRE((Complex(3, 2) *= Complex(3, 2)) == Complex(5, 12));
-  REQUIRE((Complex(-1, 2) *= Complex(1, 8)) == Complex(-17, 6));
+  REQUIRE((Complex(-1, 2) *= Complex(1, 8)) == Complex(-17, -6));
   REQUIRE((Complex(0, 5) *= 3) == Complex(0, 15));
   REQUIRE((Complex(3, 0) *= 0) == Complex(0, 0));
 }

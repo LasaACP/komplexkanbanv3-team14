@@ -28,22 +28,22 @@ add_executable(MyProgram
   ../lib/log.h           
   ../lib/outstream.h     
   ../lib/sqrt.h
-  ../lib/argument.cpp       
+  ../lib/arg.cpp       
   ../lib/equality.cpp  
   ../lib/minusequals.cpp     
   ../lib/plusequals.cpp  
   ../lib/subtraction.cpp
-  ../lib/argument.h     
+  ../lib/arg.h     
   ../lib/equality.h    
   ../lib/minusequals.h       
   ../lib/plusequals.h    
   ../lib/subtraction.h
-  ../lib/complexconj.cpp    
+  ../lib/conj.cpp    
   ../lib/exp.cpp   
   ../lib/multequals.cpp      
   ../lib/polar.cpp       
   ../lib/tan.cpp
-  ../lib/complexconj.h      
+  ../lib/conj.h      
   ../lib/exp.h     
   ../lib/multequals.h        
   ../lib/polar.h         

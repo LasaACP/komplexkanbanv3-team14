@@ -110,10 +110,10 @@ CMakeFiles/MyProgram.dir/lib/addition.cpp.o: /home/runner/KomplexKanban-V3-Willi
   /home/runner/KomplexKanban-V3-WilliamGu3/lib/addition.h \
   /home/runner/KomplexKanban-V3-WilliamGu3/lib/Complex.h
 
-CMakeFiles/MyProgram.dir/lib/argument.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/argument.cpp \
+CMakeFiles/MyProgram.dir/lib/arg.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/arg.cpp \
   /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/stdc-predef.h \
+  /home/runner/KomplexKanban-V3-WilliamGu3/lib/arg.h \
   /home/runner/KomplexKanban-V3-WilliamGu3/lib/Complex.h \
-  /home/runner/KomplexKanban-V3-WilliamGu3/lib/argument.h \
   /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/cmath \
   /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/x86_64-unknown-linux-gnu/bits/c++config.h \
   /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/x86_64-unknown-linux-gnu/bits/os_defines.h \
@@ -210,10 +210,10 @@ CMakeFiles/MyProgram.dir/lib/argument.cpp.o: /home/runner/KomplexKanban-V3-Willi
   /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/tr1/poly_laguerre.tcc \
   /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/tr1/riemann_zeta.tcc
 
-CMakeFiles/MyProgram.dir/lib/complexconj.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/complexconj.cpp \
+CMakeFiles/MyProgram.dir/lib/conj.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/conj.cpp \
   /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/stdc-predef.h \
-  /home/runner/KomplexKanban-V3-WilliamGu3/lib/Complex.h \
-  /home/runner/KomplexKanban-V3-WilliamGu3/lib/complexconj.h
+  /home/runner/KomplexKanban-V3-WilliamGu3/lib/conj.h \
+  /home/runner/KomplexKanban-V3-WilliamGu3/lib/Complex.h
 
 CMakeFiles/MyProgram.dir/lib/cos.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/cos.cpp \
   /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/stdc-predef.h \
@@ -320,7 +320,7 @@ CMakeFiles/MyProgram.dir/lib/division.cpp.o: /home/runner/KomplexKanban-V3-Willi
   /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/stdc-predef.h \
   /home/runner/KomplexKanban-V3-WilliamGu3/lib/Complex.h \
   /home/runner/KomplexKanban-V3-WilliamGu3/lib/division.h \
-  /home/runner/KomplexKanban-V3-WilliamGu3/lib/complexconj.h \
+  /home/runner/KomplexKanban-V3-WilliamGu3/lib/conj.h \
   /home/runner/KomplexKanban-V3-WilliamGu3/lib/multiplication.h
 
 CMakeFiles/MyProgram.dir/lib/equality.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/equality.cpp \
@@ -1450,7 +1450,7 @@ CMakeFiles/MyProgram.dir/lib/polar.cpp.o: /home/runner/KomplexKanban-V3-WilliamG
   /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/tr1/riemann_zeta.tcc \
   /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/math.h \
   /home/runner/KomplexKanban-V3-WilliamGu3/lib/absolutevalue.h \
-  /home/runner/KomplexKanban-V3-WilliamGu3/lib/argument.h
+  /home/runner/KomplexKanban-V3-WilliamGu3/lib/arg.h
 
 CMakeFiles/MyProgram.dir/lib/real.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/real.cpp \
   /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/stdc-predef.h \
@@ -1563,7 +1563,7 @@ CMakeFiles/MyProgram.dir/lib/sqrt.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu
   /home/runner/KomplexKanban-V3-WilliamGu3/lib/sqrt.h \
   /home/runner/KomplexKanban-V3-WilliamGu3/lib/Complex.h \
   /home/runner/KomplexKanban-V3-WilliamGu3/lib/polar.h \
-  /home/runner/KomplexKanban-V3-WilliamGu3/lib/argument.h \
+  /home/runner/KomplexKanban-V3-WilliamGu3/lib/arg.h \
   /home/runner/KomplexKanban-V3-WilliamGu3/lib/absolutevalue.h \
   /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/cmath \
   /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/x86_64-unknown-linux-gnu/bits/c++config.h \
@@ -1776,8 +1776,8 @@ CMakeFiles/MyProgram.dir/src/main_test.cpp.o: /home/runner/KomplexKanban-V3-Will
   /home/runner/KomplexKanban-V3-WilliamGu3/lib/absolutevalue.h \
   /home/runner/KomplexKanban-V3-WilliamGu3/lib/Complex.h \
   /home/runner/KomplexKanban-V3-WilliamGu3/lib/addition.h \
-  /home/runner/KomplexKanban-V3-WilliamGu3/lib/argument.h \
-  /home/runner/KomplexKanban-V3-WilliamGu3/lib/complexconj.h \
+  /home/runner/KomplexKanban-V3-WilliamGu3/lib/arg.h \
+  /home/runner/KomplexKanban-V3-WilliamGu3/lib/conj.h \
   /home/runner/KomplexKanban-V3-WilliamGu3/lib/cos.h \
   /home/runner/KomplexKanban-V3-WilliamGu3/lib/polar.h \
   /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/cmath \
@@ -2639,27 +2639,27 @@ CMakeFiles/MyProgram.dir/tests/catch_amalgamated.cpp.o: /home/runner/KomplexKanb
 
 /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/bits/iscanonical.h:
 
+/home/runner/KomplexKanban-V3-WilliamGu3/lib/equality.cpp:
+
+/nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/cmath:
+
+/home/runner/KomplexKanban-V3-WilliamGu3/lib/division.h:
+
+/nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/regex_executor.tcc:
+
+/nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/pstl/pstl_config.h:
+
+/nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/hash_bytes.h:
+
+/home/runner/KomplexKanban-V3-WilliamGu3/lib/cos.h:
+
 /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/stack:
 
 /home/runner/KomplexKanban-V3-WilliamGu3/src/main_test.cpp:
 
 /home/runner/KomplexKanban-V3-WilliamGu3/lib/exp.h:
 
-/home/runner/KomplexKanban-V3-WilliamGu3/lib/division.h:
-
-/home/runner/KomplexKanban-V3-WilliamGu3/lib/cos.h:
-
-/nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/regex_executor.tcc:
-
-/nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/hash_bytes.h:
-
-/nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/pstl/pstl_config.h:
-
-/home/runner/KomplexKanban-V3-WilliamGu3/lib/equality.cpp:
-
-/nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/cmath:
-
-/home/runner/KomplexKanban-V3-WilliamGu3/lib/complexconj.cpp:
+/home/runner/KomplexKanban-V3-WilliamGu3/lib/arg.cpp:
 
 /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/x86_64-unknown-linux-gnu/bits/c++io.h:
 
@@ -2743,10 +2743,6 @@ CMakeFiles/MyProgram.dir/tests/catch_amalgamated.cpp.o: /home/runner/KomplexKanb
 
 /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/cwctype:
 
-/home/runner/KomplexKanban-V3-WilliamGu3/lib/argument.cpp:
-
-/nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/backward/binders.h:
-
 /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/refwrap.h:
 
 /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/tr1/riemann_zeta.tcc:
@@ -2756,12 +2752,6 @@ CMakeFiles/MyProgram.dir/tests/catch_amalgamated.cpp.o: /home/runner/KomplexKanb
 /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/bits/locale.h:
 
 /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/math.h:
-
-/nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/bits/types/__fpos_t.h:
-
-/nix/store/i38jcxrwa4fxk2b7acxircpi399kyixw-linux-headers-6.0/include/asm/errno.h:
-
-/nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/cstdint:
 
 /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/hashtable_policy.h:
 
@@ -2778,8 +2768,6 @@ CMakeFiles/MyProgram.dir/tests/catch_amalgamated.cpp.o: /home/runner/KomplexKanb
 /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/bits/long-double.h:
 
 /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/cxxabi_init_exception.h:
-
-/home/runner/KomplexKanban-V3-WilliamGu3/lib/argument.h:
 
 /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/stl_algobase.h:
 
@@ -2873,10 +2861,6 @@ CMakeFiles/MyProgram.dir/tests/catch_amalgamated.cpp.o: /home/runner/KomplexKanb
 
 /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/wctype.h:
 
-/nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/cerrno:
-
-/nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/sys/cdefs.h:
-
 /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/bits/endianness.h:
 
 /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/ext/alloc_traits.h:
@@ -2900,12 +2884,6 @@ CMakeFiles/MyProgram.dir/tests/catch_amalgamated.cpp.o: /home/runner/KomplexKanb
 /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/alloca.h:
 
 /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/x86_64-unknown-linux-gnu/bits/ctype_base.h:
-
-/nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/map:
-
-/home/runner/KomplexKanban-V3-WilliamGu3/lib/minusequals.cpp:
-
-/nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/bits/types/sigset_t.h:
 
 /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/bits/stdio_lim.h:
 
@@ -2953,7 +2931,15 @@ CMakeFiles/MyProgram.dir/tests/catch_amalgamated.cpp.o: /home/runner/KomplexKanb
 
 /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/streambuf:
 
+/nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/map:
+
+/nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/bits/types/sigset_t.h:
+
+/home/runner/KomplexKanban-V3-WilliamGu3/lib/minusequals.cpp:
+
 /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/memoryfwd.h:
+
+/home/runner/KomplexKanban-V3-WilliamGu3/lib/conj.cpp:
 
 /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/bits/types/clock_t.h:
 
@@ -2973,11 +2959,15 @@ CMakeFiles/MyProgram.dir/tests/catch_amalgamated.cpp.o: /home/runner/KomplexKanb
 
 /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include/stddef.h:
 
+/home/runner/KomplexKanban-V3-WilliamGu3/lib/arg.h:
+
 /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/bits/types/sigval_t.h:
 
 /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/stl_algo.h:
 
 /home/runner/KomplexKanban-V3-WilliamGu3/lib/Complex.cpp:
+
+/home/runner/KomplexKanban-V3-WilliamGu3/lib/conj.h:
 
 /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/bits/types/timer_t.h:
 
@@ -3018,8 +3008,6 @@ CMakeFiles/MyProgram.dir/tests/catch_amalgamated.cpp.o: /home/runner/KomplexKanb
 /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/bits/stdio2-decl.h:
 
 /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/bits/types/wint_t.h:
-
-/home/runner/KomplexKanban-V3-WilliamGu3/lib/complexconj.h:
 
 /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/bits/waitflags.h:
 
@@ -3137,6 +3125,12 @@ CMakeFiles/MyProgram.dir/tests/catch_amalgamated.cpp.o: /home/runner/KomplexKanb
 
 /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/ostream_insert.h:
 
+/nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/backward/binders.h:
+
+/nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/sys/cdefs.h:
+
+/nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/cerrno:
+
 /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/range_access.h:
 
 /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/basic_string.h:
@@ -3172,6 +3166,12 @@ CMakeFiles/MyProgram.dir/tests/catch_amalgamated.cpp.o: /home/runner/KomplexKanb
 /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/bits/types/struct_itimerspec.h:
 
 /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/stdio.h:
+
+/nix/store/i38jcxrwa4fxk2b7acxircpi399kyixw-linux-headers-6.0/include/asm/errno.h:
+
+/nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/cstdint:
+
+/nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/bits/types/__fpos_t.h:
 
 /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/tr1/hypergeometric.tcc:
 

@@ -113,11 +113,11 @@ CMakeFiles/MyProgram.dir/lib/addition.cpp.o
  /home/runner/KomplexKanban-V3-WilliamGu3/lib/addition.h
  /home/runner/KomplexKanban-V3-WilliamGu3/lib/Complex.h
 
-CMakeFiles/MyProgram.dir/lib/argument.cpp.o
- /home/runner/KomplexKanban-V3-WilliamGu3/lib/argument.cpp
+CMakeFiles/MyProgram.dir/lib/arg.cpp.o
+ /home/runner/KomplexKanban-V3-WilliamGu3/lib/arg.cpp
  /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/stdc-predef.h
+ /home/runner/KomplexKanban-V3-WilliamGu3/lib/arg.h
  /home/runner/KomplexKanban-V3-WilliamGu3/lib/Complex.h
- /home/runner/KomplexKanban-V3-WilliamGu3/lib/argument.h
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/cmath
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/x86_64-unknown-linux-gnu/bits/c++config.h
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/x86_64-unknown-linux-gnu/bits/os_defines.h
@@ -214,11 +214,11 @@ CMakeFiles/MyProgram.dir/lib/argument.cpp.o
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/tr1/poly_laguerre.tcc
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/tr1/riemann_zeta.tcc
 
-CMakeFiles/MyProgram.dir/lib/complexconj.cpp.o
- /home/runner/KomplexKanban-V3-WilliamGu3/lib/complexconj.cpp
+CMakeFiles/MyProgram.dir/lib/conj.cpp.o
+ /home/runner/KomplexKanban-V3-WilliamGu3/lib/conj.cpp
  /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/stdc-predef.h
+ /home/runner/KomplexKanban-V3-WilliamGu3/lib/conj.h
  /home/runner/KomplexKanban-V3-WilliamGu3/lib/Complex.h
- /home/runner/KomplexKanban-V3-WilliamGu3/lib/complexconj.h
 
 CMakeFiles/MyProgram.dir/lib/cos.cpp.o
  /home/runner/KomplexKanban-V3-WilliamGu3/lib/cos.cpp
@@ -327,7 +327,7 @@ CMakeFiles/MyProgram.dir/lib/division.cpp.o
  /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/stdc-predef.h
  /home/runner/KomplexKanban-V3-WilliamGu3/lib/Complex.h
  /home/runner/KomplexKanban-V3-WilliamGu3/lib/division.h
- /home/runner/KomplexKanban-V3-WilliamGu3/lib/complexconj.h
+ /home/runner/KomplexKanban-V3-WilliamGu3/lib/conj.h
  /home/runner/KomplexKanban-V3-WilliamGu3/lib/multiplication.h
 
 CMakeFiles/MyProgram.dir/lib/equality.cpp.o
@@ -1469,7 +1469,7 @@ CMakeFiles/MyProgram.dir/lib/polar.cpp.o
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/tr1/riemann_zeta.tcc
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/math.h
  /home/runner/KomplexKanban-V3-WilliamGu3/lib/absolutevalue.h
- /home/runner/KomplexKanban-V3-WilliamGu3/lib/argument.h
+ /home/runner/KomplexKanban-V3-WilliamGu3/lib/arg.h
 
 CMakeFiles/MyProgram.dir/lib/real.cpp.o
  /home/runner/KomplexKanban-V3-WilliamGu3/lib/real.cpp
@@ -1585,7 +1585,7 @@ CMakeFiles/MyProgram.dir/lib/sqrt.cpp.o
  /home/runner/KomplexKanban-V3-WilliamGu3/lib/sqrt.h
  /home/runner/KomplexKanban-V3-WilliamGu3/lib/Complex.h
  /home/runner/KomplexKanban-V3-WilliamGu3/lib/polar.h
- /home/runner/KomplexKanban-V3-WilliamGu3/lib/argument.h
+ /home/runner/KomplexKanban-V3-WilliamGu3/lib/arg.h
  /home/runner/KomplexKanban-V3-WilliamGu3/lib/absolutevalue.h
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/cmath
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/x86_64-unknown-linux-gnu/bits/c++config.h
@@ -1801,8 +1801,8 @@ CMakeFiles/MyProgram.dir/src/main_test.cpp.o
  /home/runner/KomplexKanban-V3-WilliamGu3/lib/absolutevalue.h
  /home/runner/KomplexKanban-V3-WilliamGu3/lib/Complex.h
  /home/runner/KomplexKanban-V3-WilliamGu3/lib/addition.h
- /home/runner/KomplexKanban-V3-WilliamGu3/lib/argument.h
- /home/runner/KomplexKanban-V3-WilliamGu3/lib/complexconj.h
+ /home/runner/KomplexKanban-V3-WilliamGu3/lib/arg.h
+ /home/runner/KomplexKanban-V3-WilliamGu3/lib/conj.h
  /home/runner/KomplexKanban-V3-WilliamGu3/lib/cos.h
  /home/runner/KomplexKanban-V3-WilliamGu3/lib/polar.h
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/cmath

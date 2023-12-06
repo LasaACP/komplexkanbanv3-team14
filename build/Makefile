@@ -201,53 +201,53 @@ lib/addition.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/addition.cpp.s
 .PHONY : lib/addition.cpp.s
 
-lib/argument.o: lib/argument.cpp.o
-.PHONY : lib/argument.o
+lib/arg.o: lib/arg.cpp.o
+.PHONY : lib/arg.o
 
 # target to build an object file
-lib/argument.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/argument.cpp.o
-.PHONY : lib/argument.cpp.o
+lib/arg.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/arg.cpp.o
+.PHONY : lib/arg.cpp.o
 
-lib/argument.i: lib/argument.cpp.i
-.PHONY : lib/argument.i
+lib/arg.i: lib/arg.cpp.i
+.PHONY : lib/arg.i
 
 # target to preprocess a source file
-lib/argument.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/argument.cpp.i
-.PHONY : lib/argument.cpp.i
+lib/arg.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/arg.cpp.i
+.PHONY : lib/arg.cpp.i
 
-lib/argument.s: lib/argument.cpp.s
-.PHONY : lib/argument.s
+lib/arg.s: lib/arg.cpp.s
+.PHONY : lib/arg.s
 
 # target to generate assembly for a file
-lib/argument.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/argument.cpp.s
-.PHONY : lib/argument.cpp.s
+lib/arg.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/arg.cpp.s
+.PHONY : lib/arg.cpp.s
 
-lib/complexconj.o: lib/complexconj.cpp.o
-.PHONY : lib/complexconj.o
+lib/conj.o: lib/conj.cpp.o
+.PHONY : lib/conj.o
 
 # target to build an object file
-lib/complexconj.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/complexconj.cpp.o
-.PHONY : lib/complexconj.cpp.o
+lib/conj.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/conj.cpp.o
+.PHONY : lib/conj.cpp.o
 
-lib/complexconj.i: lib/complexconj.cpp.i
-.PHONY : lib/complexconj.i
+lib/conj.i: lib/conj.cpp.i
+.PHONY : lib/conj.i
 
 # target to preprocess a source file
-lib/complexconj.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/complexconj.cpp.i
-.PHONY : lib/complexconj.cpp.i
+lib/conj.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/conj.cpp.i
+.PHONY : lib/conj.cpp.i
 
-lib/complexconj.s: lib/complexconj.cpp.s
-.PHONY : lib/complexconj.s
+lib/conj.s: lib/conj.cpp.s
+.PHONY : lib/conj.s
 
 # target to generate assembly for a file
-lib/complexconj.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/complexconj.cpp.s
-.PHONY : lib/complexconj.cpp.s
+lib/conj.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/conj.cpp.s
+.PHONY : lib/conj.cpp.s
 
 lib/cos.o: lib/cos.cpp.o
 .PHONY : lib/cos.o
@@ -771,12 +771,12 @@ help:
 	@echo "... lib/addition.o"
 	@echo "... lib/addition.i"
 	@echo "... lib/addition.s"
-	@echo "... lib/argument.o"
-	@echo "... lib/argument.i"
-	@echo "... lib/argument.s"
-	@echo "... lib/complexconj.o"
-	@echo "... lib/complexconj.i"
-	@echo "... lib/complexconj.s"
+	@echo "... lib/arg.o"
+	@echo "... lib/arg.i"
+	@echo "... lib/arg.s"
+	@echo "... lib/conj.o"
+	@echo "... lib/conj.i"
+	@echo "... lib/conj.s"
 	@echo "... lib/cos.o"
 	@echo "... lib/cos.i"
 	@echo "... lib/cos.s"

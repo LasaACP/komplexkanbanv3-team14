@@ -10,5 +10,5 @@ Complex operator - (const Complex &z, const double &w) {
 }
 
 Complex operator - (const double &z, const Complex &w) {
-  return Complex (z - w.real, w.img);
+  return Complex (z - w.real, -w.img);
 }

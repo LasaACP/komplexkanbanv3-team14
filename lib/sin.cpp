@@ -3,5 +3,5 @@
 #include "polar.h"
 
 Complex sin(Complex z){
-  return polar(sin(z.real)*cosh(z.img), cos(z.real)*sinh(z.img));
+  return Complex(sin(z.real)*cosh(z.img), cos(z.real)*sinh(z.img));
 }
