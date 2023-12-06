@@ -165,16 +165,16 @@ TEST_CASE ("Testing Cos", "[cos"){
   REQUIRE(cos(Complex(2,0)) == -0.41614);
 }
 
-TEST_CASE("Testing Cos", "[sin]"){
+TEST_CASE("Testing Sin", "[sin]"){
   cout << "Running tests on sin" << endl;
   REQUIRE(sin(Complex(3,4)) == Complex(-3.85373, -27.01861));
-  REQUIRE(sin(Complex(0,2)) == Complex(0, (-1+EULER^4)/(2*EULER^2)));
+  REQUIRE(sin(Complex(0,2)) == Complex(0, (-1+pow(EULER,4))/(2*pow(EULER,2))));
   REQUIRE(sin(Complex(2,0)) == 0.90929);
 }
 
 TEST_CASE("Testing Exp", "[exp]"){
   cout << "Running tests on exp" << endl;
-  REQUIRE(exp(Complex(3,4)) == );
+  REQUIRE(exp(Complex(3,4)) == 0);
 }
 
 
