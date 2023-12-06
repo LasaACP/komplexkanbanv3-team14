@@ -1,0 +1,1 @@
+/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ CMakeFiles/MyProgram.dir/src/main_test.cpp.o CMakeFiles/MyProgram.dir/tests/catch_amalgamated.cpp.o CMakeFiles/MyProgram.dir/lib/addition.cpp.o CMakeFiles/MyProgram.dir/lib/Complex.cpp.o CMakeFiles/MyProgram.dir/lib/equality.cpp.o -o MyProgram 
