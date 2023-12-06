@@ -95,4 +95,5 @@ int main_2 () {
     cout << "The acoth is: " << acoth(a) << "\n";
     cout << "The complex number rotated by pi/6 radians is: " << rotate(a, PI/6) << "\n";
     */
+  return 0;
 }

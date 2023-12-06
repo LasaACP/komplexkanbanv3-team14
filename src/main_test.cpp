@@ -6,8 +6,8 @@
 */
 
 
-#define CATCH_CONFIG_RUNNER
-#define CATCH_AMALGAMATED_CUSTOM_MAIN
+//#define CATCH_CONFIG_RUNNER
+//#define CATCH_AMALGAMATED_CUSTOM_MAIN
 #include <iostream>
 #include "../tests/catch_amalgamated.hpp"
 #include "../lib/Complex.h"
@@ -61,7 +61,6 @@ int main_test( int argc, char* argv[] ) {
 //   REQUIRE(Factorial(4) == 24);
 //   REQUIRE(Factorial(5) == 1);
 // }
-
 TEST_CASE("Testing Addition")
 {
 
