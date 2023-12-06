@@ -20,6 +20,8 @@
 #include "../lib/argument.h"
 #include "../lib/outstream.h"
 #include "../lib/instream.h"
+#include "../lib/polar.h"
+
 
 using namespace std;
 
