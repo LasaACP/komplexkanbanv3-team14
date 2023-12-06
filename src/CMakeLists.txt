@@ -31,7 +31,8 @@ add_library(MyLibrary STATIC
   ../lib/norm.cpp
   ../lib/plusequals.cpp
   ../lib/plusequals.h
-  
+  ../lib/sqrt.cpp
+  ../lib/sqrt.h
 )
 
 add_executable(MyProgram

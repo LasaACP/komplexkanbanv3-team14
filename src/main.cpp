@@ -14,6 +14,7 @@
 #include "../lib/exp.h"
 #include "../lib/norm.h"
 #include "../lib/plusequals.h"
+#include "../lib/sqrt.h"
 
 using namespace std;
 #define PI 3.1415926538979323846

@@ -24,6 +24,8 @@
 #include "../lib/exp.h"
 #include "../lib/norm.h"
 #include "../lib/plusequals.h"
+#include "../lib/sqrt.h"
+
 
 
 using namespace std;
