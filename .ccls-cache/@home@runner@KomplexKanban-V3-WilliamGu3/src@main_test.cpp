@@ -7,8 +7,9 @@
 
 //#define CATCH_CONFIG_RUNNER
 //#define CATCH_AMALGAMATED_CUSTOM_MAIN
+/*
 #include "../lib/Complex.h"
-#include "../lib/absolutevalue.h"
+#include "../lib/abs.h"
 #include "../lib/addition.h"
 #include "../lib/arg.h"
 #include "../lib/conj.h"
@@ -29,13 +30,117 @@
 #include "../lib/sin.h"
 #include "../lib/sqrt.h"
 #include "../lib/subtraction.h"
+#include "../lib/tan.h"*/
+#include "../lib/abs.h"
+#include "../lib/abs.cpp"
+#include "../lib/acos.h"
+#include "../lib/acos.cpp"
+#include "../lib/addition.h"
+#include "../lib/addition.cpp"
+#include "../lib/arg.h"
+#include "../lib/arg.cpp"
+#include "../lib/asin.h"
+#include "../lib/asin.cpp"
+#include "../lib/atan.h"
+#include "../lib/atan.cpp"
+#include "../lib/Complex.h"
+#include "../lib/Complex.cpp"
+#include "../lib/conj.h"
+#include "../lib/conj.cpp"
+#include "../lib/cos.h"
+#include "../lib/cos.cpp"
+#include "../lib/cosh.h"
+#include "../lib/cosh.cpp"
+#include "../lib/divequals.h"
+#include "../lib/divequals.cpp"
+#include "../lib/division.h"
+#include "../lib/division.cpp"
+#include "../lib/equality.h"
+#include "../lib/equality.cpp"
+#include "../lib/exp.h"
+#include "../lib/exp.cpp"
+#include "../lib/imag.h"
+#include "../lib/imag.cpp"
+#include "../lib/instream.h"
+#include "../lib/instream.cpp"
+#include "../lib/log.h"
+#include "../lib/log.cpp"
+#include "../lib/log10.h"
+#include "../lib/log10.cpp"
+#include "../lib/minusequals.h"
+#include "../lib/minusequals.cpp"
+#include "../lib/multequals.h"
+#include "../lib/multequals.cpp"
+#include "../lib/multiplication.h"
+#include "../lib/multiplication.cpp"
+#include "../lib/norm.h"
+#include "../lib/norm.cpp"
+#include "../lib/notequals.h"
+#include "../lib/notequals.cpp"
+#include "../lib/outstream.h"
+#include "../lib/outstream.cpp"
+#include "../lib/plusequals.h"
+#include "../lib/plusequals.cpp"
+#include "../lib/polar.h"
+#include "../lib/polar.cpp"
+#include "../lib/pow.h"
+#include "../lib/pow.cpp"
+#include "../lib/real.h"
+#include "../lib/real.cpp"
+#include "../lib/rnd.h"
+#include "../lib/rnd.cpp"
+#include "../lib/rotate.h"
+#include "../lib/rotate.cpp"
+#include "../lib/sin.h"
+#include "../lib/sin.cpp"
+#include "../lib/sinh.h"
+#include "../lib/sinh.cpp"
+#include "../lib/sqrt.h"
+#include "../lib/sqrt.cpp"
+#include "../lib/subtraction.h"
+#include "../lib/subtraction.cpp"
 #include "../lib/tan.h"
+#include "../lib/tan.cpp"
+#include "../lib/tanh.h"
+#include "../lib/tanh.cpp"
+
 #include "../tests/catch_amalgamated.hpp"
 #include <iostream>
 #include "../lib/addition.h"
-
 #include "../lib/equality.h"
 #include "../lib/minusequals.h"
+
+#include "../lib/acos.h"
+
+#include "../lib/acosh.h"
+
+#include "../lib/acoth.h"
+
+#include "../lib/acsc.h"
+
+#include "../lib/acsch.h"
+
+#include "../lib/asec.h"
+
+#include "../lib/asech.h"
+#include "../lib/asin.h"
+
+#include "../lib/asinh.h"
+
+#include "../lib/atan.h"
+
+#include "../lib/atanh.h"
+
+#include "../lib/cosh.h"
+
+#include "../lib/notequals.h"
+
+#include "../lib/rnd.h"
+
+#include "../lib/rotate.h"
+#include "../lib/sinh.h"
+
+#include "../lib/tanh.h"
 #include <tgmath.h>
 
 #define PI 3.1415926538979323846
@@ -69,21 +174,23 @@ int main_test(int argc, char *argv[]) {
 //   REQUIRE(Factorial(4) == 24);
 //   REQUIRE(Factorial(5) == 1);
 // }
-TEST_CASE("Testing Real") {
-
-  cout << "Hello Catch2 Build with Catch2 main()\n";
-  cout << "Running tests on real" << endl;
-  REQUIRE(real(Complex(1, 2)) == 1);
+TEST_CASE("Testing Absolute Value/Magnitude") {
+  cout << "Running tests on absolute value" << endl;
+  REQUIRE(abs(Complex(3, 4)) == 5);
+  REQUIRE(abs(Complex(0, 2)) == 2);
+  REQUIRE(abs(Complex(-1, 2)) == sqrt(5));
+  REQUIRE(abs(Complex(5, 0)) == 5);
+  REQUIRE(abs(Complex(2, -2)) == sqrt(8));
 }
-TEST_CASE("Testing Imag") {
 
-  cout << "Running tests on imag" << endl;
-  REQUIRE(imag(Complex(1, 2)) == 2);
+TEST_CASE("Testing acos", "[acos]") {
+  cout << "Running tests on acos" << endl;
+  REQUIRE(acos(Complex(3, 4)) == Complex(-0.00018, 0.99935));
+  REQUIRE(acos(Complex(0, 2)) == Complex(0, 0.96402));
+  REQUIRE(acos(Complex(2, 0)) == -2.18503);
 }
 
 TEST_CASE("Testing Addition") {
-
-
   cout << "Running tests on addition" << endl;
   REQUIRE(Complex(1, 2) + Complex(1, 2) == Complex(2, 4));
   REQUIRE(Complex(1, -2) + Complex(1, 2) == Complex(2, 0));
@@ -92,22 +199,50 @@ TEST_CASE("Testing Addition") {
   REQUIRE(Complex(3, 0) + Complex(-2, 0) == Complex(1, 0));
 }
 
-TEST_CASE("Testing Subtraction") {
-  cout << "Running tests on subtraction" << endl;
-  REQUIRE(Complex(1, 2) - Complex(1, 2) == Complex(0, 0));
-  REQUIRE(Complex(1, -2) - Complex(1, 2) == Complex(0, -4));
-  REQUIRE(Complex(-1, 2) - 3 == Complex(-4, 2));
-  REQUIRE(3 - Complex(0, -5) == Complex(3, 5));
-  REQUIRE(Complex(3, 0) - Complex(-2, 0) == Complex(5, 0));
+TEST_CASE("Testing argument") {
+  cout << "Running tests on argument" << endl;
+
+  REQUIRE(arg(Complex(3, 4)) == atan(4.0 / 3.0));
+  REQUIRE(arg(Complex(0, 2)) == M_PI / 2.0);
+  REQUIRE(arg(Complex(4, 5)) == atan(5.0 / 4.0));
+  REQUIRE(arg(Complex(2, 0)) == 0);
 }
 
-TEST_CASE("Testing Multiplication") {
-  cout << "Running tests on multiplication" << endl;
-  REQUIRE(Complex(3, 2) * Complex(3, -2) == Complex(13, 0));
-  REQUIRE(Complex(3, 2) * Complex(3, 2) == Complex(5, 12));
-  REQUIRE(Complex(-1, 2) * Complex(1, 8) == Complex(-17, -6));
-  REQUIRE(Complex(0, 5) * 3 == Complex(0, 15));
-  REQUIRE(Complex(3, 0) * 0 == Complex(0, 0));
+TEST_CASE("Testing asin", "[asin]") {
+  cout << "Running tests on asin" << endl;
+  REQUIRE(asin(Complex(3, 4)) == Complex(-0.00018, 0.99935));
+  REQUIRE(asin(Complex(0, 2)) == Complex(0, 0.96402));
+  REQUIRE(asin(Complex(2, 0)) == -2.18503);
+}
+
+TEST_CASE("Testing atan", "[atan]") {
+  cout << "Running tests on atan" << endl;
+  REQUIRE(atan(Complex(3, 4)) == Complex(-0.00018, 0.99935));
+  REQUIRE(atan(Complex(0, 2)) == Complex(0, 0.96402));
+  REQUIRE(atan(Complex(2, 0)) == -2.18503);
+}
+
+TEST_CASE("Testing complex conjugate") {
+  cout << "Running tests on complex conjugate" << endl;
+  REQUIRE(conj(Complex(3, 4)) == Complex(3, -4));
+  REQUIRE(conj(Complex(0, 2)) == Complex(0, -2));
+  REQUIRE(conj(Complex(-1, 2)) == Complex(-1, -2));
+  REQUIRE(conj(Complex(5, 0)) == 5);
+  REQUIRE(conj(Complex(0, 0)) == 0);
+}
+
+TEST_CASE("Testing Cos", "[cos]") {
+  cout << "Running tests on cos" << endl;
+  REQUIRE(cos(Complex(3, 4)) == Complex(-27.03, 3.85));
+  REQUIRE(cos(Complex(0, 2)) == 3.76219);
+  REQUIRE(cos(Complex(2, 0)) == -0.41614);
+}
+
+TEST_CASE("Testing cosh", "[cosh]") {
+  cout << "Running tests on cosh" << endl;
+  REQUIRE(cosh(Complex(3, 4)) == Complex(-27.03, 3.85));
+  REQUIRE(cosh(Complex(0, 2)) == 3.76219);
+  REQUIRE(cosh(Complex(2, 0)) == -0.41614);
 }
 
 TEST_CASE("Testing Division") {
@@ -121,76 +256,31 @@ TEST_CASE("Testing Division") {
   REQUIRE(Complex(3, 0) / 1 == Complex(3, 0));
 }
 
-TEST_CASE("Testing Absolute Value/Magnitude") {
-  cout << "Running tests on absolute value" << endl;
-  REQUIRE(abs(Complex(3, 4)) == 5);
-  REQUIRE(abs(Complex(0, 2)) == 2);
-  REQUIRE(abs(Complex(-1, 2)) == sqrt(5));
-  REQUIRE(abs(Complex(5, 0)) == 5);
-  REQUIRE(abs(Complex(2, -2)) == sqrt(8));
-}
-
-TEST_CASE("Testing complex conjugate") {
-  cout << "Running tests on complex conjugate" << endl;
-  REQUIRE(conj(Complex(3, 4)) == Complex(3, -4));
-  REQUIRE(conj(Complex(0, 2)) == Complex(0, -2));
-  REQUIRE(conj(Complex(-1, 2)) == Complex(-1, -2));
-  REQUIRE(conj(Complex(5, 0)) == 5);
-  REQUIRE(conj(Complex(0, 0)) == 0);
-}
-
-TEST_CASE("Testing argument") {
-  cout << "Running tests on argument" << endl;
-
-  REQUIRE(arg(Complex(3, 4)) == atan(4.0 / 3.0));
-  REQUIRE(arg(Complex(0, 2)) == M_PI / 2.0);
-  REQUIRE(arg(Complex(4, 5)) == atan(5.0 / 4.0));
-  REQUIRE(arg(Complex(2, 0)) == 0);
-}
-
-TEST_CASE("Testing norm") {
-  cout << "Running tests on norm" << endl;
-  REQUIRE(norm(Complex(3, 4)) == 25);
-  REQUIRE(norm(Complex(0, 2)) == 4);
-  REQUIRE(norm(Complex(-1, 2)) == 5);
-  REQUIRE(norm(Complex(5, 0)) == 25);
-  REQUIRE(norm(Complex(2, -2)) == 8);
-}
-
-TEST_CASE("Testing Polar", "[polar]") {
-  cout << "Running tests on polar" << endl;
-  REQUIRE(polar(1,PI) == Complex(-1,0));
-  REQUIRE(polar(4,PI/2) == Complex(0,4));
-  REQUIRE(polar(sqrt(2),PI/4) == Complex(1,1));
-}
-
-TEST_CASE("Testing Tan", "[tan]") {
-  cout << "Running tests on tan" << endl;
-  REQUIRE(tan(Complex(3, 4)) == Complex(-0.00018, 0.99935));
-  REQUIRE(tan(Complex(0, 2)) == Complex(0, 0.96402));
-  REQUIRE(tan(Complex(2, 0)) == -2.18503);
-}
-
-TEST_CASE("Testing Cos", "[cos]") {
-  cout << "Running tests on cos" << endl;
-  REQUIRE(cos(Complex(3, 4)) == Complex(-27.03, 3.85));
-  REQUIRE(cos(Complex(0, 2)) == 3.76219);
-  REQUIRE(cos(Complex(2, 0)) == -0.41614);
-}
-
-TEST_CASE("Testing Sin", "[sin]") {
-  cout << "Running tests on sin" << endl;
-  REQUIRE(sin(Complex(3, 4)) == Complex(3.85373, -27.01861));
-  REQUIRE(sin(Complex(0, 2)) ==
-          Complex(0, (-1 + pow(EULER, 4)) / (2 * pow(EULER, 2))));
-  REQUIRE(sin(Complex(2, 0)) == 0.90929);
-}
 
 TEST_CASE("Testing Exp", "[exp]") {
   cout << "Running tests on exp" << endl;
   REQUIRE(exp(Complex(3, 4)) == Complex(-13.12, -15.20));
   REQUIRE(exp(Complex(0,2)) == Complex(cos(2),sin(2)));
 } 
+
+TEST_CASE("Testing Imag") {
+  cout << "Running tests on imag" << endl;
+  REQUIRE(imag(Complex(1, 2)) == 2);
+}
+
+TEST_CASE("Testing Log", "[log]"){
+  cout << "Running tests on log" << endl;
+  REQUIRE(log(polar(2,PI)) == polar(log(2), PI));
+  REQUIRE(log(polar(1,PI)) == polar(log(1), PI));
+  REQUIRE(log(polar(sqrt(2),PI/4)) == polar(log(sqrt(2)), PI/4));
+}
+
+TEST_CASE("Testing log10", "[log10]"){
+  cout << "Running tests on log10" << endl;
+  REQUIRE(log10(polar(2,PI)) == polar(log10(2), PI));
+  REQUIRE(log10(polar(1,PI)) == polar(log10(1), PI));
+  REQUIRE(log10(polar(sqrt(2),PI/4)) == polar(log10(sqrt(2)), PI/4));
+}
 
 TEST_CASE("Testing minusequals", "[minusequals]") {
   cout << "Running tests on minus" << endl;
@@ -206,13 +296,62 @@ TEST_CASE("Testing multequals", "[multequals]") {
   REQUIRE((Complex(3, 0) *= 0) == Complex(0, 0));
 }
 
+TEST_CASE("Testing divequals", "[divequals]") {
+  cout << "Running tests on divequals" << endl;
+  REQUIRE((Complex(3, 2) /= Complex(3, -2)) == Complex(5/13, 12/13));
+  REQUIRE((Complex(3, 2) /= Complex(3, 2)) == Complex(1, 0));
+  REQUIRE((Complex(-1, 2) /= Complex(1, 8)) == Complex(3/13, 2/13));
+  REQUIRE((Complex(0, 5) /= 3) == Complex(0, 5/3));
+}
+
+TEST_CASE("Testing Multiplication") {
+  cout << "Running tests on multiplication" << endl;
+  REQUIRE(Complex(3, 2) * Complex(3, -2) == Complex(13, 0));
+  REQUIRE(Complex(3, 2) * Complex(3, 2) == Complex(5, 12));
+  REQUIRE(Complex(-1, 2) * Complex(1, 8) == Complex(-17, -6));
+  REQUIRE(Complex(0, 5) * 3 == Complex(0, 15));
+  REQUIRE(Complex(3, 0) * 0 == Complex(0, 0));
+}
+
+TEST_CASE("Testing norm") {
+  cout << "Running tests on norm" << endl;
+  REQUIRE(norm(Complex(3, 4)) == 25);
+  REQUIRE(norm(Complex(0, 2)) == 4);
+  REQUIRE(norm(Complex(-1, 2)) == 5);
+  REQUIRE(norm(Complex(5, 0)) == 25);
+  REQUIRE(norm(Complex(2, -2)) == 8);
+}
 
 TEST_CASE("Testing plusequals", "[plusequals]") {
   cout << "Running tests on plusequals" << endl;
   REQUIRE((Complex(1, 2) += Complex(1, 2)) == Complex(2, 4));
   REQUIRE((Complex(1, -2) += Complex(1, 2)) == Complex(2, 0));
   REQUIRE((Complex(-1, 2) += 3) == Complex(2, 2));
-  REQUIRE((3 += Complex(1, -2)) == Complex(4,-2));
+  //REQUIRE(3 += Complex(1, -2)) == Complex(4,-2);
+}
+
+TEST_CASE("Testing Polar", "[polar]") {
+  cout << "Running tests on polar" << endl;
+  REQUIRE(polar(1,PI) == Complex(-1,0));
+  REQUIRE(polar(4,PI/2) == Complex(0,4));
+  REQUIRE(polar(sqrt(2),PI/4) == Complex(1,1));
+}
+
+TEST_CASE("Testing Sin", "[sin]") {
+  cout << "Running tests on sin" << endl;
+  REQUIRE(sin(Complex(3, 4)) == Complex(3.85373, -27.01861));
+  REQUIRE(sin(Complex(0, 2)) ==
+          Complex(0, (-1 + pow(EULER, 4)) / (2 * pow(EULER, 2))));
+  REQUIRE(sin(Complex(2, 0)) == 0.90929);
+}
+
+
+TEST_CASE("Testing sinh", "[sinh]") {
+  cout << "Running tests on sinh" << endl;
+  REQUIRE(sinh(Complex(3, 4)) == Complex(3.85373, -27.01861));
+  REQUIRE(sinh(Complex(0, 2)) ==
+          Complex(0, (-1 + pow(EULER, 4)) / (2 * pow(EULER, 2))));
+  REQUIRE(sinh(Complex(2, 0)) == 0.90929);
 }
 
 TEST_CASE("Testing Sqrt", "[sqrt]") {
@@ -222,13 +361,36 @@ TEST_CASE("Testing Sqrt", "[sqrt]") {
   REQUIRE(sqrt(polar(4,PI/2)) == polar(2, PI/4));
 }
 
-TEST_CASE("Testing Log", "[log]"){
-  cout << "Running tests on log" << endl;
-  REQUIRE(log(polar(2,PI)) == polar(log(2), PI));
-  REQUIRE(log(polar(1,PI)) == polar(log(1), PI));
-  REQUIRE(log(polar(sqrt(2),PI/4)) == polar(log(sqrt(2)), PI/4));
+TEST_CASE("Testing Subtraction") {
+  cout << "Running tests on subtraction" << endl;
+  REQUIRE(Complex(1, 2) - Complex(1, 2) == Complex(0, 0));
+  REQUIRE(Complex(1, -2) - Complex(1, 2) == Complex(0, -4));
+  REQUIRE(Complex(-1, 2) - 3 == Complex(-4, 2));
+  REQUIRE(3 - Complex(0, -5) == Complex(3, 5));
+  REQUIRE(Complex(3, 0) - Complex(-2, 0) == Complex(5, 0));
 }
 
-// */
+
+TEST_CASE("Testing Real") {
+
+  cout << "Hello Catch2 Build with Catch2 main()\n";
+  cout << "Running tests on real" << endl;
+  REQUIRE(real(Complex(1, 2)) == 1);
+}
+
+TEST_CASE("Testing Tan", "[tan]") {
+  cout << "Running tests on tan" << endl;
+  REQUIRE(tan(Complex(3, 4)) == Complex(-0.00018, 0.99935));
+  REQUIRE(tan(Complex(0, 2)) == Complex(0, 0.96402));
+  REQUIRE(tan(Complex(2, 0)) == -2.18503);
+}
+
+
+TEST_CASE("Testing tanh", "[tanh]") {
+  cout << "Running tests on tanh" << endl;
+  REQUIRE(tanh(Complex(3, 4)) == Complex(-0.00018, 0.99935));
+  REQUIRE(tanh(Complex(0, 2)) == Complex(0, 0.96402));
+  REQUIRE(tanh(Complex(2, 0)) == -2.18503);
+}
 
 #endif //#ifndef CATCH_AMALGAMATED_CUSTOM_MAIN

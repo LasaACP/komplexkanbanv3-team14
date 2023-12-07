@@ -20,6 +20,43 @@ add_executable(MyProgram
   ../lib/norm.cpp        
   ../lib/sin.cpp
   ../lib/absolutevalue.h    
+  
+  ../lib/acos.h
+  ../lib/acos.cpp
+  ../lib/acosh.h
+  ../lib/acosh.cpp
+  ../lib/acot.cpp
+  ../lib/acoth.h
+  ../lib/acoth.cpp
+  ../lib/acsc.h
+  ../lib/acsc.cpp
+  ../lib/acsch.cpp
+  ../lib/acsch.h
+  ../lib/asec.cpp
+  ../lib/asec.h
+  ../lib/asech.cpp
+  ../lib/asech.h
+  ../lib/asin.h
+  ../lib/asin.cpp
+  ../lib/asinh.h
+  ../lib/asinh.cpp
+  ../lib/atan.cpp
+  ../lib/atan.h
+  ../lib/atanh.cpp
+  ../lib/atanh.h
+  ../lib/cosh.cpp
+  ../lib/cosh.h
+  ../lib/notequals.cpp
+  ../lib/notequals.h
+  ../lib/rnd.cpp
+  ../lib/rnd.h
+  ../lib/rotate.cpp
+  ../lib/rotate.h
+  ../lib/sinh.h
+  ../lib/sinh.cpp
+  ../lib/tanh.cpp
+  ../lib/tanh.h
+  
   ../lib/cos.h     
   ../lib/instream.h      
   ../lib/norm.h      

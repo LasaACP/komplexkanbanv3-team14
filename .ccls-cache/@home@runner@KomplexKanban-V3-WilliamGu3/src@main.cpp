@@ -1,7 +1,7 @@
 #include <cstdlib>
 #include <iostream>
 #include "../lib/Complex.h"
-#include "../lib/absolutevalue.h"
+#include "../lib/abs.h"
 #include "../lib/addition.h"
 #include "../lib/arg.h"
 #include "../lib/conj.h"
@@ -27,6 +27,38 @@
 #include "../lib/addition.h"
 
 #include "../lib/equality.h"
+
+#include "../lib/acos.h"
+
+#include "../lib/acosh.h"
+
+#include "../lib/acoth.h"
+
+#include "../lib/acsc.h"
+
+#include "../lib/acsch.h"
+
+#include "../lib/asec.h"
+
+#include "../lib/asech.h"
+#include "../lib/asin.h"
+
+#include "../lib/asinh.h"
+
+#include "../lib/atan.h"
+
+#include "../lib/atanh.h"
+
+#include "../lib/cosh.h"
+
+#include "../lib/notequals.h"
+
+#include "../lib/rnd.h"
+
+#include "../lib/rotate.h"
+#include "../lib/sinh.h"
+
+#include "../lib/tanh.h"
 
 using namespace std;
 #define PI 3.1415926538979323846

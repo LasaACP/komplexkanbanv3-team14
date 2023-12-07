@@ -1,2 +1,6 @@
 #include "Complex.h"
-Complex tanh(const Complex z);
+
+
+Complex tanh(Complex z);
+
+ 
