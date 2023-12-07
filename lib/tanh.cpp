@@ -2,5 +2,5 @@
 #include <cmath>
 Complex tanh(const Complex z)
 {
-  return Complex();
+  return z; //dummy, I-Jacob will finsh 
 }
