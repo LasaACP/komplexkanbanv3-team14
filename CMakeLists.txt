@@ -11,7 +11,7 @@ project(myProject)
 #../tests/catch_amalgamated.hpp
 
 add_executable(MyProgram
-  ../src/main_test.cpp
+  ../src/main_test.cpp 
   ../tests/catch_amalgamated.cpp
   ../tests/catch_amalgamated.hpp
   ../lib/absolutevalue.cpp
