@@ -47,10 +47,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MyProgram.dir/lib/subtraction.cpp.o.d"
   "CMakeFiles/MyProgram.dir/lib/tan.cpp.o"
   "CMakeFiles/MyProgram.dir/lib/tan.cpp.o.d"
-  "CMakeFiles/MyProgram.dir/src/main_test.cpp.o"
-  "CMakeFiles/MyProgram.dir/src/main_test.cpp.o.d"
-  "CMakeFiles/MyProgram.dir/tests/catch_amalgamated.cpp.o"
-  "CMakeFiles/MyProgram.dir/tests/catch_amalgamated.cpp.o.d"
+  "CMakeFiles/MyProgram.dir/src/main.cpp.o"
+  "CMakeFiles/MyProgram.dir/src/main.cpp.o.d"
   "MyProgram"
   "MyProgram.pdb"
 )

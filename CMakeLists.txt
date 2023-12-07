@@ -1,13 +1,17 @@
 # Complete the CMake buid files
+
 cmake_minimum_required(VERSION 3.10)
 project(myProject)
+#to run main file. ../src/main.cpp instead of main_test
+#remove the two test files
 
-
+#to run tests: 
+#../src/main_test.cpp
+#../tests/catch_amalgamated.cpp
+#../tests/catch_amalgamated.hpp
 
 add_executable(MyProgram
-  ../src/main_test.cpp
-  ../tests/catch_amalgamated.cpp
-  ../tests/catch_amalgamated.hpp
+  ../src/main.cpp
   ../lib/absolutevalue.cpp
   ../lib/cos.cpp   
   ../lib/instream.cpp

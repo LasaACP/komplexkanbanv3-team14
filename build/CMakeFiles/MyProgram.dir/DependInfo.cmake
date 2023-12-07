@@ -32,8 +32,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/runner/KomplexKanban-V3-WilliamGu3/lib/sqrt.cpp" "CMakeFiles/MyProgram.dir/lib/sqrt.cpp.o" "gcc" "CMakeFiles/MyProgram.dir/lib/sqrt.cpp.o.d"
   "/home/runner/KomplexKanban-V3-WilliamGu3/lib/subtraction.cpp" "CMakeFiles/MyProgram.dir/lib/subtraction.cpp.o" "gcc" "CMakeFiles/MyProgram.dir/lib/subtraction.cpp.o.d"
   "/home/runner/KomplexKanban-V3-WilliamGu3/lib/tan.cpp" "CMakeFiles/MyProgram.dir/lib/tan.cpp.o" "gcc" "CMakeFiles/MyProgram.dir/lib/tan.cpp.o.d"
-  "/home/runner/KomplexKanban-V3-WilliamGu3/src/main_test.cpp" "CMakeFiles/MyProgram.dir/src/main_test.cpp.o" "gcc" "CMakeFiles/MyProgram.dir/src/main_test.cpp.o.d"
-  "/home/runner/KomplexKanban-V3-WilliamGu3/tests/catch_amalgamated.cpp" "CMakeFiles/MyProgram.dir/tests/catch_amalgamated.cpp.o" "gcc" "CMakeFiles/MyProgram.dir/tests/catch_amalgamated.cpp.o.d"
+  "/home/runner/KomplexKanban-V3-WilliamGu3/src/main.cpp" "CMakeFiles/MyProgram.dir/src/main.cpp.o" "gcc" "CMakeFiles/MyProgram.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.
