@@ -51,6 +51,8 @@
 #include "../lib/cos.cpp"
 #include "../lib/cosh.h"
 #include "../lib/cosh.cpp"
+#include "../lib/divequals.h"
+#include "../lib/divequals.cpp"
 #include "../lib/division.h"
 #include "../lib/division.cpp"
 #include "../lib/equality.h"
@@ -261,6 +263,14 @@ TEST_CASE("Testing multequals", "[multequals]") {
   REQUIRE((Complex(-1, 2) *= Complex(1, 8)) == Complex(-17, -6));
   REQUIRE((Complex(0, 5) *= 3) == Complex(0, 15));
   REQUIRE((Complex(3, 0) *= 0) == Complex(0, 0));
+}
+
+TEST_CASE("Testing divequals", "[divequals]") {
+  cout << "Running tests on divequals" << endl;
+  REQUIRE((Complex(3, 2) /= Complex(3, -2)) == Complex(5/13, 12/13));
+  REQUIRE((Complex(3, 2) /= Complex(3, 2)) == Complex(1, 0));
+  REQUIRE((Complex(-1, 2) /= Complex(1, 8)) == Complex(3/13, 2/13));
+  REQUIRE((Complex(0, 5) /= 3) == Complex(0, 5/3));
 }
 
 TEST_CASE("Testing Multiplication") {
