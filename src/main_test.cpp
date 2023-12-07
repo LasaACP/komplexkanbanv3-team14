@@ -10,8 +10,8 @@
 #include "../lib/Complex.h"
 #include "../lib/absolutevalue.h"
 #include "../lib/addition.h"
-#include "../lib/argument.h"
-#include "../lib/complexconj.h"
+#include "../lib/arg.h"
+#include "../lib/conj.h"
 #include "../lib/cos.h"
 #include "../lib/division.h"
 #include "../lib/equality.h"
@@ -155,7 +155,7 @@ TEST_CASE("Testing Tan", "[tan]") {
   REQUIRE(tan(Complex(2, 0)) == -2.18503);
 }
 
-TEST_CASE("Testing Cos", "[cos") {
+TEST_CASE("Testing Cos", "[cos]") {
   cout << "Running tests on cos" << endl;
   REQUIRE(cos(Complex(3, 4)) == Complex(-1.56562, -3.29789));
   REQUIRE(cos(Complex(0, 2)) == 3.76219);
@@ -189,7 +189,7 @@ TEST_CASE("Testing plusequals", "[plusequals]") {
   REQUIRE((Complex(1, 2) += Complex(1, 2)) == Complex(2, 4));
   REQUIRE((Complex(1, -2) += Complex(1, 2)) == Complex(2, 0));
   REQUIRE((Complex(-1, 2) += 3) == Complex(2, 2));
-  REQUIRE((3 += Complex(1, -2)) == Complex(4,-2));
+  REQUIRE((3 += Complex(1, -2) == Complex(4,-2));
 }
 
 // */
