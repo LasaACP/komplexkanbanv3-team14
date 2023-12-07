@@ -32,85 +32,83 @@
 #include "../lib/subtraction.h"
 #include "../lib/tan.h"*/
 #include "../lib/abs.h"
-#include "../lib/abs.cpp"
+
 #include "../lib/acos.h"
-#include "../lib/acos.cpp"
+
 #include "../lib/addition.h"
-#include "../lib/addition.cpp"
+
 #include "../lib/arg.h"
-#include "../lib/arg.cpp"
+
 #include "../lib/asin.h"
-#include "../lib/asin.cpp"
+
 #include "../lib/atan.h"
-#include "../lib/atan.cpp"
+
 #include "../lib/Complex.h"
-#include "../lib/Complex.cpp"
+
 #include "../lib/conj.h"
-#include "../lib/conj.cpp"
+
 #include "../lib/cos.h"
-#include "../lib/cos.cpp"
+
 #include "../lib/cosh.h"
-#include "../lib/cosh.cpp"
+
 #include "../lib/divequals.h"
-#include "../lib/divequals.cpp"
+
 #include "../lib/division.h"
-#include "../lib/division.cpp"
+
 #include "../lib/equality.h"
-#include "../lib/equality.cpp"
+
 #include "../lib/exp.h"
-#include "../lib/exp.cpp"
+
 #include "../lib/imag.h"
-#include "../lib/imag.cpp"
+
 #include "../lib/instream.h"
-#include "../lib/instream.cpp"
+
 #include "../lib/log.h"
-#include "../lib/log.cpp"
+
 #include "../lib/log10.h"
-#include "../lib/log10.cpp"
+
 #include "../lib/minusequals.h"
-#include "../lib/minusequals.cpp"
+
 #include "../lib/multequals.h"
-#include "../lib/multequals.cpp"
+
 #include "../lib/multiplication.h"
-#include "../lib/multiplication.cpp"
+
 #include "../lib/norm.h"
-#include "../lib/norm.cpp"
+
 #include "../lib/notequals.h"
-#include "../lib/notequals.cpp"
+
 #include "../lib/outstream.h"
-#include "../lib/outstream.cpp"
+
 #include "../lib/plusequals.h"
-#include "../lib/plusequals.cpp"
+
 #include "../lib/polar.h"
-#include "../lib/polar.cpp"
+
 #include "../lib/pow.h"
-#include "../lib/pow.cpp"
+
 #include "../lib/real.h"
-#include "../lib/real.cpp"
+
 #include "../lib/rnd.h"
-#include "../lib/rnd.cpp"
+
 #include "../lib/rotate.h"
-#include "../lib/rotate.cpp"
+
 #include "../lib/sin.h"
-#include "../lib/sin.cpp"
+
 #include "../lib/sinh.h"
-#include "../lib/sinh.cpp"
+
 #include "../lib/sqrt.h"
-#include "../lib/sqrt.cpp"
+
 #include "../lib/subtraction.h"
-#include "../lib/subtraction.cpp"
+
 #include "../lib/tan.h"
-#include "../lib/tan.cpp"
+
 #include "../lib/tanh.h"
-#include "../lib/tanh.cpp"
+
 
 #include "../tests/catch_amalgamated.hpp"
 #include <iostream>
-#include "../lib/addition.h"
-#include "../lib/equality.h"
-#include "../lib/minusequals.h"
 
-#include "../lib/acos.h"
+
+
 
 #include "../lib/acosh.h"
 
@@ -123,24 +121,21 @@
 #include "../lib/asec.h"
 
 #include "../lib/asech.h"
-#include "../lib/asin.h"
+
 
 #include "../lib/asinh.h"
 
-#include "../lib/atan.h"
+
 
 #include "../lib/atanh.h"
 
-#include "../lib/cosh.h"
+
 
 #include "../lib/notequals.h"
 
-#include "../lib/rnd.h"
 
-#include "../lib/rotate.h"
-#include "../lib/sinh.h"
 #include "../lib/acot.h"
-#include "../lib/tanh.h"
+
 #include <tgmath.h>
 
 #define PI 3.1415926538979323846

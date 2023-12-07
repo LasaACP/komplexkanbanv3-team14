@@ -1,34 +1,82 @@
 #include <cstdlib>
 #include <iostream>
-#include "../lib/Complex.h"
 #include "../lib/abs.h"
-#include "../lib/addition.h"
-#include "../lib/arg.h"
-#include "../lib/conj.h"
-#include "../lib/cos.h"
-#include "../lib/division.h"
-#include "../lib/equality.h"
-#include "../lib/exp.h"
-#include "../lib/imag.h"
-#include "../lib/instream.h"
-#include "../lib/log.h"
-#include "../lib/multequals.h"
-#include "../lib/multiplication.h"
-#include "../lib/norm.h"
-#include "../lib/outstream.h"
-#include "../lib/plusequals.h"
-#include "../lib/polar.h"
-#include "../lib/real.h"
-#include "../lib/sin.h"
-#include "../lib/sqrt.h"
-#include "../lib/subtraction.h"
-#include "../lib/tan.h"
-#include "../tests/catch_amalgamated.hpp"
-#include "../lib/addition.h"
-
-#include "../lib/equality.h"
 
 #include "../lib/acos.h"
+
+#include "../lib/addition.h"
+
+#include "../lib/arg.h"
+
+#include "../lib/asin.h"
+
+#include "../lib/atan.h"
+
+#include "../lib/Complex.h"
+
+#include "../lib/conj.h"
+
+#include "../lib/cos.h"
+
+#include "../lib/cosh.h"
+
+#include "../lib/divequals.h"
+
+#include "../lib/division.h"
+
+#include "../lib/equality.h"
+
+#include "../lib/exp.h"
+
+#include "../lib/imag.h"
+
+#include "../lib/instream.h"
+
+#include "../lib/log.h"
+
+#include "../lib/log10.h"
+
+#include "../lib/minusequals.h"
+
+#include "../lib/multequals.h"
+
+#include "../lib/multiplication.h"
+
+#include "../lib/norm.h"
+
+#include "../lib/notequals.h"
+
+#include "../lib/outstream.h"
+
+#include "../lib/plusequals.h"
+
+#include "../lib/polar.h"
+
+#include "../lib/pow.h"
+
+#include "../lib/real.h"
+
+#include "../lib/rnd.h"
+
+#include "../lib/rotate.h"
+
+#include "../lib/sin.h"
+
+#include "../lib/sinh.h"
+
+#include "../lib/sqrt.h"
+
+#include "../lib/subtraction.h"
+
+#include "../lib/tan.h"
+
+#include "../lib/tanh.h"
+
+
+#include "../tests/catch_amalgamated.hpp"
+
+
+
 
 #include "../lib/acosh.h"
 
@@ -41,25 +89,22 @@
 #include "../lib/asec.h"
 
 #include "../lib/asech.h"
-#include "../lib/asin.h"
+
 
 #include "../lib/asinh.h"
 
-#include "../lib/atan.h"
+
 
 #include "../lib/atanh.h"
 
-#include "../lib/cosh.h"
-#include "../lib/acot.h"
+
 
 #include "../lib/notequals.h"
 
-#include "../lib/rnd.h"
 
-#include "../lib/rotate.h"
-#include "../lib/sinh.h"
+#include "../lib/acot.h"
 
-#include "../lib/tanh.h"
+#include <tgmath.h>
 
 using namespace std;
 #define PI 3.1415926538979323846
