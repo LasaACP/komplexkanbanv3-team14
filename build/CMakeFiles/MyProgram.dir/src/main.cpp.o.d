@@ -187,7 +187,7 @@ CMakeFiles/MyProgram.dir/src/main.cpp.o: \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/istream \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/istream.tcc \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/Complex.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/absolutevalue.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/abs.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/Complex.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/addition.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/arg.h \
@@ -311,4 +311,22 @@ CMakeFiles/MyProgram.dir/src/main.cpp.o: \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/stream_iterator.h \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/set \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/stl_set.h \
- /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/stl_multiset.h
+ /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/stl_multiset.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/acos.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/acosh.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/acoth.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/acsc.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/acsch.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/asec.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/asech.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/asin.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/asinh.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/atan.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/atanh.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/cosh.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/acot.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/notequals.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/rnd.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/rotate.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/sinh.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/tanh.h
