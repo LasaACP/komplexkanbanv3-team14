@@ -11,15 +11,14 @@ project(myProject)
 #../tests/catch_amalgamated.hpp
 
 add_executable(MyProgram
-  ../src/main_test.cpp 
-  ../tests/catch_amalgamated.cpp
-  ../tests/catch_amalgamated.hpp
-  ../lib/absolutevalue.cpp
+  ../src/main.cpp 
+
+  ../lib/abs.cpp
   ../lib/cos.cpp   
   ../lib/instream.cpp
   ../lib/norm.cpp        
   ../lib/sin.cpp
-  ../lib/absolutevalue.h    
+  ../lib/abs.h    
   
   ../lib/acos.h
   ../lib/acos.cpp
