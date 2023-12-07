@@ -139,7 +139,7 @@
 
 #include "../lib/rotate.h"
 #include "../lib/sinh.h"
-
+#include "../lib/acot.h"
 #include "../lib/tanh.h"
 #include <tgmath.h>
 

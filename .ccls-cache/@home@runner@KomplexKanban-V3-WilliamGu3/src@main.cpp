@@ -50,6 +50,7 @@
 #include "../lib/atanh.h"
 
 #include "../lib/cosh.h"
+#include "../lib/acot.h"
 
 #include "../lib/notequals.h"
 
@@ -105,7 +106,7 @@ int main () {
     cout << "The real part is: " << real(a) << "\n";
     cout << "The imaginary part is: " << imag(a) << "\n";
     // cout << "The log (base 10) is: " << log10(a) << "\n";
-    // cout << "a^b is: " << pow(a, b) << "\n";
+    //  cout << "a^b is: " << pow(a, b) << "\n";
     // cout << "a^2.7 is: " << pow(a, 2.7) << "\n";
     // cout << "2.7^a is: " << pow(2.7, a) << "\n";
     // cout << "The cube root is: " << root(a, 3) << "\n\n";
@@ -117,21 +118,21 @@ int main () {
     cout << "cos(a) = " << cos(a) << "\n";
     cout << "tan(a) = " << tan(a) << "\n\n";
 
-    // cout << "The asin is: " << asin(a) << "\n";
-    // cout << "The acos is: " << acos(a) << "\n";
-    // cout << "The atan is: " << atan(a) << "\n";
-    // cout << "The acsc is: " << acsc(a) << "\n";
-    // cout << "The asec is: " << asec(a) << "\n";
-    // cout << "The acot is: " << acot(a) << "\n\n";
+    cout << "The asin is: " << asin(a) << "\n";
+     cout << "The acos is: " << acos(a) << "\n";
+     cout << "The atan is: " << atan(a) << "\n";
+     cout << "The acsc is: " << acsc(a) << "\n";
+    cout << "The asec is: " << asec(a) << "\n";
+     cout << "The acot is: " << acot(a) << "\n\n";
 
-    // cout << "The asinh is:" << asinh(a) << "\n";
-    // cout << "The acosh is: " << acosh(a) << "\n";
+    cout << "The asinh is:" << asinh(a) << "\n";
+     cout << "The acosh is: " << acosh(a) << "\n";
     // cout << "Rounded to 2 decimal places: " << acosh(a).rnd(2) << "\n";
-    // cout << "The atanh is: " << atanh(a) << "\n";
-    // cout << "The acsch is: " << acsch(a) << "\n";
-    // cout << "The asech is: " << asech(a) << "\n";
-    // cout << "The acoth is: " << acoth(a) << "\n";
-    // cout << "The complex number rotated by pi/6 radians is: " << rotate(a, PI/6) << "\n";
+    cout << "The atanh is: " << atanh(a) << "\n";
+     cout << "The acsch is: " << acsch(a) << "\n";
+     cout << "The asech is: " << asech(a) << "\n";
+     cout << "The acoth is: " << acoth(a) << "\n";
+     cout << "The complex number rotated by pi/6 radians is: " << rotate(a, PI/6) << "\n";
     
   return 0;
 }

@@ -26,6 +26,7 @@ add_executable(MyProgram
   ../lib/acosh.h
   ../lib/acosh.cpp
   ../lib/acot.cpp
+  ../lib/acot.h
   ../lib/acoth.h
   ../lib/acoth.cpp
   ../lib/acsc.h
