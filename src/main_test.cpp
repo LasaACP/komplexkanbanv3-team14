@@ -345,10 +345,10 @@ TEST_CASE("Testing Sin", "[sin]") {
 
 TEST_CASE("Testing sinh", "[sinh]") {
   cout << "Running tests on sinh" << endl;
-  REQUIRE(sinh(Complex(3, 4)) == Complex(3.85373, -27.01861));
-  REQUIRE(sinh(Complex(0, 2)) ==
-          Complex(0, (-1 + pow(EULER, 4)) / (2 * pow(EULER, 2))));
-  REQUIRE(sinh(Complex(2, 0)) == 0.90929);
+  REQUIRE(sinh(Complex(3, 4)) == Complex(-6.54812, -7.619232));
+  REQUIRE(sinh(Complex(2, 0)) ==
+          Complex((-1 + pow(EULER, 4)) / (2 * pow(EULER, 2)), 0));
+  REQUIRE(sinh(Complex(0, 2)) == Complex(0, 0.90929));
 }
 
 TEST_CASE("Testing Sqrt", "[sqrt]") {
