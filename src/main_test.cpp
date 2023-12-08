@@ -135,6 +135,8 @@
 
 
 #include "../lib/acot.h"
+#include "../lib/divequals.h"
+#include "../lib/log10.h"
 
 #include <tgmath.h>
 
@@ -293,10 +295,10 @@ TEST_CASE("Testing multequals", "[multequals]") {
 
 TEST_CASE("Testing divequals", "[divequals]") {
   cout << "Running tests on divequals" << endl;
-  REQUIRE((Complex(3, 2) /= Complex(3, -2)) == Complex(5/13, 12/13));
+  REQUIRE((Complex(3, 2) /= Complex(3, -2)) == Complex(0.38461538461, 0.92307692307));
   REQUIRE((Complex(3, 2) /= Complex(3, 2)) == Complex(1, 0));
-  REQUIRE((Complex(-1, 2) /= Complex(1, 8)) == Complex(3/13, 2/13));
-  REQUIRE((Complex(0, 5) /= 3) == Complex(0, 5/3));
+  REQUIRE((Complex(-1, 2) /= Complex(1, 8)) == Complex(0.23076923076, 0.15384615384));
+  REQUIRE((Complex(0, 5) /= 3) == Complex(0, 1.66666666667));
 }
 
 TEST_CASE("Testing Multiplication") {
