@@ -237,9 +237,9 @@ TEST_CASE("Testing Cos", "[cos]") {
 
 TEST_CASE("Testing cosh", "[cosh]") {
   cout << "Running tests on cosh" << endl;
-  REQUIRE(cosh(Complex(3, 4)) == Complex(-27.03, 3.85));
-  REQUIRE(cosh(Complex(0, 2)) == 3.76219);
-  REQUIRE(cosh(Complex(2, 0)) == -0.41614);
+  REQUIRE(cosh(Complex(3, 4)) == Complex(-6.580663, -7.581553));
+  REQUIRE(cosh(Complex(0, 2)) == Complex(-0.416147, 0));
+  REQUIRE(cosh(Complex(2, 0)) == Complex(3.762196, 0));
 }
 
 TEST_CASE("Testing Division") {
