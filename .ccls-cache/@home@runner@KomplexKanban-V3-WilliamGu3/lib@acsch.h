@@ -1,3 +1,3 @@
 #include "Complex.h"
 
-double acsch(Complex z);
+Complex acsch(Complex z);

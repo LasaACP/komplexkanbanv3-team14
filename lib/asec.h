@@ -1,3 +1,3 @@
 #include "Complex.h"
 
-double asec(Complex z);
+Complex asec(Complex z);
