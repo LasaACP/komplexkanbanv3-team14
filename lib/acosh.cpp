@@ -1,6 +1,12 @@
 #include "acosh.h"
+#include "log.h"
+#include "addition.h"
+#include "subtraction.h"
+#include "sqrt.h"
+#include "multiplication.h"
+
 #include <limits>
 
-double acosh(Complex z){
-  return std::numeric_limits<double>::quiet_NaN();
+Complex acosh(Complex z){
+  return log(z+sqrt(z+1)*sqrt(z-1));
 }

@@ -1,3 +1,3 @@
 #include "Complex.h"
 
-double acot(Complex z);
+Complex acot(Complex z);

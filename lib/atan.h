@@ -1,5 +1,5 @@
 #include "Complex.h"
 
 
-double atan(Complex z);
+Complex atan(Complex z);
 
