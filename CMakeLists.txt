@@ -20,6 +20,8 @@ add_executable(MyProgram
   ../lib/norm.cpp        
   ../lib/sin.cpp
   ../lib/abs.h    
+  ../lib/pow.cpp
+  ../lib/pow.h
   
   ../lib/acos.h
   ../lib/acos.cpp
