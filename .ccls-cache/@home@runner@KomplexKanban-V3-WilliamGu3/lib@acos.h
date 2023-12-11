@@ -2,4 +2,4 @@
 
 
 
-double acos(Complex z);
+Complex acos(Complex z);

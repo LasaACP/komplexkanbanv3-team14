@@ -135,6 +135,8 @@
 
 
 #include "../lib/acot.h"
+#include "../lib/divequals.h"
+#include "../lib/log10.h"
 
 #include <tgmath.h>
 
@@ -180,9 +182,9 @@ TEST_CASE("Testing Absolute Value/Magnitude") {
 
 TEST_CASE("Testing acos", "[acos]") {
   cout << "Running tests on acos" << endl;
-  REQUIRE(acos(Complex(3, 4)) == Complex(-0.00018, 0.99935));
-  REQUIRE(acos(Complex(0, 2)) == Complex(0, 0.96402));
-  REQUIRE(acos(Complex(2, 0)) == -2.18503);
+  REQUIRE(acos(Complex(1, 2)) == Complex(1.1437 , -1.5286));
+  REQUIRE(acos(Complex(0, 2)) == Complex(1.5707963, -1.4436355));
+  REQUIRE(acos(Complex(2, 0)) == Complex(0, 1.3170));
 }
 
 TEST_CASE("Testing Addition") {
@@ -205,16 +207,16 @@ TEST_CASE("Testing argument") {
 
 TEST_CASE("Testing asin", "[asin]") {
   cout << "Running tests on asin" << endl;
-  REQUIRE(asin(Complex(3, 4)) == Complex(-0.00018, 0.99935));
-  REQUIRE(asin(Complex(0, 2)) == Complex(0, 0.96402));
-  REQUIRE(asin(Complex(2, 0)) == -2.18503);
+  REQUIRE(asin(Complex(3, 4)) == Complex(0.6340 , 2.3055));
+  REQUIRE(asin(Complex(0, 2)) == Complex(0, 1.4436));
+  REQUIRE(asin(Complex(2, 0)) == Complex(1.5708 , -1.3170));
 }
 
 TEST_CASE("Testing atan", "[atan]") {
   cout << "Running tests on atan" << endl;
-  REQUIRE(atan(Complex(3, 4)) == Complex(-0.00018, 0.99935));
-  REQUIRE(atan(Complex(0, 2)) == Complex(0, 0.96402));
-  REQUIRE(atan(Complex(2, 0)) == -2.18503);
+  REQUIRE(atan(Complex(3, 4)) == Complex(1.4483 , 0.1590));
+  REQUIRE(atan(Complex(0, 2)) == Complex(-1.5708 , 0.5493));
+  REQUIRE(atan(Complex(2, 0)) == 1.1071);
 }
 
 TEST_CASE("Testing complex conjugate") {
@@ -235,9 +237,9 @@ TEST_CASE("Testing Cos", "[cos]") {
 
 TEST_CASE("Testing cosh", "[cosh]") {
   cout << "Running tests on cosh" << endl;
-  REQUIRE(cosh(Complex(3, 4)) == Complex(-27.03, 3.85));
-  REQUIRE(cosh(Complex(0, 2)) == 3.76219);
-  REQUIRE(cosh(Complex(2, 0)) == -0.41614);
+  REQUIRE(cosh(Complex(3, 4)) == Complex(-6.580663, -7.581553));
+  REQUIRE(cosh(Complex(0, 2)) == Complex(-0.416147, 0));
+  REQUIRE(cosh(Complex(2, 0)) == Complex(3.762196, 0));
 }
 
 TEST_CASE("Testing Division") {
@@ -273,6 +275,7 @@ TEST_CASE("Testing Log", "[log]"){
 TEST_CASE("Testing log10", "[log10]"){
   cout << "Running tests on log10" << endl;
   REQUIRE(log10(polar(2,PI)) == polar(log10(2), PI));
+  cout << polar(2,PI);
   REQUIRE(log10(polar(1,PI)) == polar(log10(1), PI));
   REQUIRE(log10(polar(sqrt(2),PI/4)) == polar(log10(sqrt(2)), PI/4));
 }
@@ -293,10 +296,10 @@ TEST_CASE("Testing multequals", "[multequals]") {
 
 TEST_CASE("Testing divequals", "[divequals]") {
   cout << "Running tests on divequals" << endl;
-  REQUIRE((Complex(3, 2) /= Complex(3, -2)) == Complex(5/13, 12/13));
+  REQUIRE((Complex(3, 2) /= Complex(3, -2)) == Complex(0.38461538461, 0.92307692307));
   REQUIRE((Complex(3, 2) /= Complex(3, 2)) == Complex(1, 0));
-  REQUIRE((Complex(-1, 2) /= Complex(1, 8)) == Complex(3/13, 2/13));
-  REQUIRE((Complex(0, 5) /= 3) == Complex(0, 5/3));
+  REQUIRE((Complex(-1, 2) /= Complex(1, 8)) == Complex(0.23076923076, 0.15384615384));
+  REQUIRE((Complex(0, 5) /= 3) == Complex(0, 1.66666666667));
 }
 
 TEST_CASE("Testing Multiplication") {
@@ -343,10 +346,10 @@ TEST_CASE("Testing Sin", "[sin]") {
 
 TEST_CASE("Testing sinh", "[sinh]") {
   cout << "Running tests on sinh" << endl;
-  REQUIRE(sinh(Complex(3, 4)) == Complex(3.85373, -27.01861));
-  REQUIRE(sinh(Complex(0, 2)) ==
-          Complex(0, (-1 + pow(EULER, 4)) / (2 * pow(EULER, 2))));
-  REQUIRE(sinh(Complex(2, 0)) == 0.90929);
+  REQUIRE(sinh(Complex(3, 4)) == Complex(-6.54812, -7.619232));
+  REQUIRE(sinh(Complex(2, 0)) ==
+          Complex((-1 + pow(EULER, 4)) / (2 * pow(EULER, 2)), 0));
+  REQUIRE(sinh(Complex(0, 2)) == Complex(0, 0.90929));
 }
 
 TEST_CASE("Testing Sqrt", "[sqrt]") {
@@ -383,9 +386,9 @@ TEST_CASE("Testing Tan", "[tan]") {
 
 TEST_CASE("Testing tanh", "[tanh]") {
   cout << "Running tests on tanh" << endl;
-  REQUIRE(tanh(Complex(3, 4)) == Complex(-0.00018, 0.99935));
-  REQUIRE(tanh(Complex(0, 2)) == Complex(0, 0.96402));
-  REQUIRE(tanh(Complex(2, 0)) == -2.18503);
+  REQUIRE(tanh(Complex(3, 4)) == Complex(1.0007, 0.0049));
+  REQUIRE(tanh(Complex(0, 2)) == Complex(0,-2.1850));
+  REQUIRE(tanh(Complex(2, 0)) == 0.9640);
 }
 
 #endif //#ifndef CATCH_AMALGAMATED_CUSTOM_MAIN

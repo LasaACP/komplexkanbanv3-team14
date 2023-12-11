@@ -1,7 +1,10 @@
 #include "tanh.h"
 #include <cmath>
+#include "sinh.h"
+#include "cosh.h"
+#include "division.h"
 
 Complex tanh(const Complex z)
 {
-  return z; //dummy, I-Jacob will finsh 
+  return sinh(z) / cosh(z);
 }
