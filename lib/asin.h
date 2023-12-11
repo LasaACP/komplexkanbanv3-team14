@@ -2,5 +2,5 @@
 
 
 
-double asin(Complex z);
+Complex asin(Complex z);
 
