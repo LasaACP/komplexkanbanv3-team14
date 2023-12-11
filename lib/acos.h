@@ -1,5 +1,3 @@
 #include "Complex.h"
 
-
-
-double acos(Complex z);
+Complex acos(Complex z);
