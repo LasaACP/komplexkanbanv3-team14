@@ -1,6 +1,6 @@
 #include "acsc.h"
 #include <limits>
 
-double acsc(Complex z){
-  return std::numeric_limits<double>::quiet_NaN();
+Complex acsc(Complex z){
+  return 
 }
