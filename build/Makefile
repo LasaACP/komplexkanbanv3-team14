@@ -585,6 +585,30 @@ lib/cosh.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/cosh.cpp.s
 .PHONY : lib/cosh.cpp.s
 
+lib/divequals.o: lib/divequals.cpp.o
+.PHONY : lib/divequals.o
+
+# target to build an object file
+lib/divequals.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/divequals.cpp.o
+.PHONY : lib/divequals.cpp.o
+
+lib/divequals.i: lib/divequals.cpp.i
+.PHONY : lib/divequals.i
+
+# target to preprocess a source file
+lib/divequals.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/divequals.cpp.i
+.PHONY : lib/divequals.cpp.i
+
+lib/divequals.s: lib/divequals.cpp.s
+.PHONY : lib/divequals.s
+
+# target to generate assembly for a file
+lib/divequals.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/divequals.cpp.s
+.PHONY : lib/divequals.cpp.s
+
 lib/division.o: lib/division.cpp.o
 .PHONY : lib/division.o
 
@@ -728,6 +752,30 @@ lib/log.s: lib/log.cpp.s
 lib/log.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/log.cpp.s
 .PHONY : lib/log.cpp.s
+
+lib/log10.o: lib/log10.cpp.o
+.PHONY : lib/log10.o
+
+# target to build an object file
+lib/log10.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/log10.cpp.o
+.PHONY : lib/log10.cpp.o
+
+lib/log10.i: lib/log10.cpp.i
+.PHONY : lib/log10.i
+
+# target to preprocess a source file
+lib/log10.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/log10.cpp.i
+.PHONY : lib/log10.cpp.i
+
+lib/log10.s: lib/log10.cpp.s
+.PHONY : lib/log10.s
+
+# target to generate assembly for a file
+lib/log10.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/log10.cpp.s
+.PHONY : lib/log10.cpp.s
 
 lib/minusequals.o: lib/minusequals.cpp.o
 .PHONY : lib/minusequals.o
@@ -1251,6 +1299,9 @@ help:
 	@echo "... lib/cosh.o"
 	@echo "... lib/cosh.i"
 	@echo "... lib/cosh.s"
+	@echo "... lib/divequals.o"
+	@echo "... lib/divequals.i"
+	@echo "... lib/divequals.s"
 	@echo "... lib/division.o"
 	@echo "... lib/division.i"
 	@echo "... lib/division.s"
@@ -1269,6 +1320,9 @@ help:
 	@echo "... lib/log.o"
 	@echo "... lib/log.i"
 	@echo "... lib/log.s"
+	@echo "... lib/log10.o"
+	@echo "... lib/log10.i"
+	@echo "... lib/log10.s"
 	@echo "... lib/minusequals.o"
 	@echo "... lib/minusequals.i"
 	@echo "... lib/minusequals.s"

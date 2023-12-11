@@ -11,7 +11,7 @@ project(myProject)
 #../tests/catch_amalgamated.hpp
 
 add_executable(MyProgram
-  ../src/main_test.cpp 
+../src/main_test.cpp
 ../tests/catch_amalgamated.cpp
 ../tests/catch_amalgamated.hpp
   ../lib/abs.cpp
@@ -100,6 +100,10 @@ add_executable(MyProgram
   ../lib/imag.h    
   ../lib/multiplication.h    
   ../lib/real.h
+  ../lib/divequals.cpp
+  ../lib/divequals.h
+  ../lib/log10.cpp
+  ../lib/log10.h
   
   
 )

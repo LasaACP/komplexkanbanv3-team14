@@ -685,6 +685,34 @@ CMakeFiles/MyProgram.dir/lib/real.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/real.cpp.s"
 	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/real.cpp -o CMakeFiles/MyProgram.dir/lib/real.cpp.s
 
+CMakeFiles/MyProgram.dir/lib/divequals.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/lib/divequals.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/divequals.cpp
+CMakeFiles/MyProgram.dir/lib/divequals.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/MyProgram.dir/lib/divequals.cpp.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/divequals.cpp.o -MF CMakeFiles/MyProgram.dir/lib/divequals.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/divequals.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/divequals.cpp
+
+CMakeFiles/MyProgram.dir/lib/divequals.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/divequals.cpp.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/divequals.cpp > CMakeFiles/MyProgram.dir/lib/divequals.cpp.i
+
+CMakeFiles/MyProgram.dir/lib/divequals.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/divequals.cpp.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/divequals.cpp -o CMakeFiles/MyProgram.dir/lib/divequals.cpp.s
+
+CMakeFiles/MyProgram.dir/lib/log10.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/lib/log10.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/log10.cpp
+CMakeFiles/MyProgram.dir/lib/log10.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/MyProgram.dir/lib/log10.cpp.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/lib/log10.cpp.o -MF CMakeFiles/MyProgram.dir/lib/log10.cpp.o.d -o CMakeFiles/MyProgram.dir/lib/log10.cpp.o -c /home/runner/KomplexKanban-V3-WilliamGu3/lib/log10.cpp
+
+CMakeFiles/MyProgram.dir/lib/log10.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/lib/log10.cpp.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/KomplexKanban-V3-WilliamGu3/lib/log10.cpp > CMakeFiles/MyProgram.dir/lib/log10.cpp.i
+
+CMakeFiles/MyProgram.dir/lib/log10.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/lib/log10.cpp.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/KomplexKanban-V3-WilliamGu3/lib/log10.cpp -o CMakeFiles/MyProgram.dir/lib/log10.cpp.s
+
 # Object files for target MyProgram
 MyProgram_OBJECTS = \
 "CMakeFiles/MyProgram.dir/src/main_test.cpp.o" \
@@ -730,7 +758,9 @@ MyProgram_OBJECTS = \
 "CMakeFiles/MyProgram.dir/lib/Complex.cpp.o" \
 "CMakeFiles/MyProgram.dir/lib/imag.cpp.o" \
 "CMakeFiles/MyProgram.dir/lib/multiplication.cpp.o" \
-"CMakeFiles/MyProgram.dir/lib/real.cpp.o"
+"CMakeFiles/MyProgram.dir/lib/real.cpp.o" \
+"CMakeFiles/MyProgram.dir/lib/divequals.cpp.o" \
+"CMakeFiles/MyProgram.dir/lib/log10.cpp.o"
 
 # External object files for target MyProgram
 MyProgram_EXTERNAL_OBJECTS =
@@ -779,9 +809,11 @@ MyProgram: CMakeFiles/MyProgram.dir/lib/Complex.cpp.o
 MyProgram: CMakeFiles/MyProgram.dir/lib/imag.cpp.o
 MyProgram: CMakeFiles/MyProgram.dir/lib/multiplication.cpp.o
 MyProgram: CMakeFiles/MyProgram.dir/lib/real.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/lib/divequals.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/lib/log10.cpp.o
 MyProgram: CMakeFiles/MyProgram.dir/build.make
 MyProgram: CMakeFiles/MyProgram.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Linking CXX executable MyProgram"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/runner/KomplexKanban-V3-WilliamGu3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking CXX executable MyProgram"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyProgram.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

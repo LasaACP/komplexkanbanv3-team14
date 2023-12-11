@@ -3,8 +3,15 @@ CMakeFiles/MyProgram.dir/src/main_test.cpp.o: \
  /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/stdc-predef.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/abs.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/Complex.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/abs.cpp \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/abs.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/acos.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/addition.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/arg.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/asin.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/atan.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/Complex.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/conj.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/cos.h \
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/polar.h \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/cmath \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/x86_64-unknown-linux-gnu/bits/c++config.h \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/x86_64-unknown-linux-gnu/bits/os_defines.h \
@@ -100,49 +107,11 @@ CMakeFiles/MyProgram.dir/src/main_test.cpp.o: \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/tr1/poly_hermite.tcc \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/tr1/poly_laguerre.tcc \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/tr1/riemann_zeta.tcc \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/acos.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/acos.cpp \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/acos.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/addition.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/addition.cpp \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/addition.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/arg.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/arg.cpp \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/arg.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/asin.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/asin.cpp \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/asin.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/atan.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/atan.cpp \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/atan.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/Complex.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/Complex.cpp \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/conj.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/conj.cpp \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/conj.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/cos.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/polar.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/cos.cpp \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/cos.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/cosh.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/cosh.cpp \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/cosh.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/divequals.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/divequals.cpp \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/division.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/divequals.h \
- /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/math.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/division.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/division.cpp \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/multiplication.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/equality.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/equality.cpp \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/equality.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/exp.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/exp.cpp \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/exp.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/imag.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/imag.cpp \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/imag.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/instream.h \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/iostream \
@@ -260,70 +229,25 @@ CMakeFiles/MyProgram.dir/src/main_test.cpp.o: \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/ostream.tcc \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/istream \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/istream.tcc \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/instream.cpp \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/instream.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/log.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/log.cpp \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/log.h \
- /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/tgmath.h \
- /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/ctgmath \
- /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/complex \
- /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/sstream \
- /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/sstream.tcc \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/log10.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/log10.cpp \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/log10.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/minusequals.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/minusequals.cpp \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/subtraction.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/minusequals.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/multequals.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/multequals.cpp \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/multequals.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/multiplication.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/multiplication.cpp \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/norm.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/norm.cpp \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/norm.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/notequals.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/notequals.cpp \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/notequals.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/outstream.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/outstream.cpp \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/outstream.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/plusequals.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/plusequals.cpp \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/plusequals.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/polar.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/polar.cpp \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/pow.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/pow.cpp \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/pow.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/real.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/real.cpp \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/real.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/rnd.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/rnd.cpp \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/rnd.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/rotate.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/rotate.cpp \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/rotate.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/sin.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/sin.cpp \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/sin.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/sinh.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/sinh.cpp \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/sinh.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/sqrt.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/sqrt.cpp \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/sqrt.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/subtraction.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/subtraction.cpp \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/tan.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/tan.cpp \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/tan.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/tanh.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/tanh.cpp \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/tanh.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../tests/catch_amalgamated.hpp \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/cstddef \
@@ -387,6 +311,8 @@ CMakeFiles/MyProgram.dir/src/main_test.cpp.o: \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/atomic_lockfree_defines.h \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/backward/auto_ptr.h \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/pstl/glue_memory_defs.h \
+ /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/sstream \
+ /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/sstream.tcc \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/random \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/random.h \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/x86_64-unknown-linux-gnu/bits/opt_random.h \
@@ -407,4 +333,7 @@ CMakeFiles/MyProgram.dir/src/main_test.cpp.o: \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/asech.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/asinh.h \
  /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/atanh.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/acot.h
+ /home/runner/KomplexKanban-V3-WilliamGu3/src/../lib/acot.h \
+ /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/tgmath.h \
+ /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/ctgmath \
+ /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/complex
