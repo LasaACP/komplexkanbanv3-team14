@@ -1,6 +1,12 @@
 #include "asinh.h"
+#include "division.h"
+#include "multiplication.h"
+#include "addition.h"
+#include "subtraction.h"
+#include "log.h"
+#include "sqrt.h"
 #include <limits>
 
-double asinh(Complex z){
-  return std::numeric_limits<double>::quiet_NaN();
+Complex asinh(Complex z){
+  return log(z+sqrt(z*z + 1));
 }

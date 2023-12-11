@@ -1,3 +1,3 @@
 #include "Complex.h"
 
-double asinh(Complex z);
+Complex asinh(Complex z);
