@@ -32,7 +32,7 @@
 #include "../lib/subtraction.h"
 #include "../lib/tan.h"*/
 #include "../lib/abs.h"
-
+#include "../lib/root.h"
 #include "../lib/acos.h"
 
 #include "../lib/addition.h"

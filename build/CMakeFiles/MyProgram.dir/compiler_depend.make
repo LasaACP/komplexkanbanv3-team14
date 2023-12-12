@@ -8812,8 +8812,12 @@ CMakeFiles/MyProgram.dir/lib/pow.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3
   /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/tr1/riemann_zeta.tcc \
   /home/runner/KomplexKanban-V3-WilliamGu3/lib/multequals.h \
   /home/runner/KomplexKanban-V3-WilliamGu3/lib/log.h \
-  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/complex \
-  /home/runner/KomplexKanban-V3-WilliamGu3/lib/multiplication.h
+  /home/runner/KomplexKanban-V3-WilliamGu3/lib/multiplication.h \
+  /home/runner/KomplexKanban-V3-WilliamGu3/lib/abs.h \
+  /home/runner/KomplexKanban-V3-WilliamGu3/lib/arg.h \
+  /home/runner/KomplexKanban-V3-WilliamGu3/lib/polar.h \
+  /home/runner/KomplexKanban-V3-WilliamGu3/lib/exp.h \
+  /home/runner/KomplexKanban-V3-WilliamGu3/lib/addition.h
 
 CMakeFiles/MyProgram.dir/lib/real.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu3/lib/real.cpp \
   /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/stdc-predef.h \
@@ -11061,11 +11065,14 @@ CMakeFiles/MyProgram.dir/src/main.cpp.o: /home/runner/KomplexKanban-V3-WilliamGu
   /home/runner/KomplexKanban-V3-WilliamGu3/lib/asech.h \
   /home/runner/KomplexKanban-V3-WilliamGu3/lib/asinh.h \
   /home/runner/KomplexKanban-V3-WilliamGu3/lib/atanh.h \
+  /home/runner/KomplexKanban-V3-WilliamGu3/lib/root.h \
   /home/runner/KomplexKanban-V3-WilliamGu3/lib/acot.h \
   /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/tgmath.h \
   /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/ctgmath \
   /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/complex
 
+
+/home/runner/KomplexKanban-V3-WilliamGu3/lib/root.h:
 
 /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/bits/stl_multiset.h:
 
