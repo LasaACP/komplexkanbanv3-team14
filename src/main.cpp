@@ -150,14 +150,14 @@ int main () {
     cout << "\n------ OTHER FUNCTION TESTING ------\n\n";
     cout << "The real part is: " << real(a) << "\n";
     cout << "The imaginary part is: " << imag(a) << "\n";
-    // cout << "The log (base 10) is: " << log10(a) << "\n";
-    //  cout << "a^b is: " << pow(a, b) << "\n";
-    // cout << "a^2.7 is: " << pow(a, 2.7) << "\n";
-    // cout << "2.7^a is: " << pow(2.7, a) << "\n";
-    // cout << "The cube root is: " << root(a, 3) << "\n\n";
+    cout << "The log (base 10) is: " << log10(a) << "\n";
+     cout << "a^b is: " << pow(a, b) << "\n";
+    cout << "a^2.7 is: " << pow(a, 2.7) << "\n";
+    cout << "2.7^a is: " << pow(2.7, a) << "\n";
+    cout << "The cube root is: " << root(a, 3) << "\n\n";
 
     cout << "(a == b) is: " << ((a==b) ? "true" : "false") << "\n";
- //   cout << "(a != b) is: " << ((a!=b) ? "true" : "false") << "\n\n";
+   cout << "(a != b) is: " << ((a!=b) ? "true" : "false") << "\n\n";
 
     cout << "sin(a) = " << sin(a) << "\n";
     cout << "cos(a) = " << cos(a) << "\n";
