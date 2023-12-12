@@ -312,13 +312,6 @@ TEST_CASE("Testing Imag") {
   REQUIRE(imag(Complex(1, 2)) == 2);
 }
 
-/*TEST_CASE("Testing outstream") {
-  cout << "Running tests on outstream" << endl;
-  istream obj;
-  
-  REQUIRE(obj >> Complex(1, 2));
-}*/
-
 TEST_CASE("Testing Log", "[log]"){
   cout << "Running tests on log" << endl;
   REQUIRE(log(polar(2,PI)) == polar(log(2), PI));
