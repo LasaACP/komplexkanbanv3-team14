@@ -114,6 +114,8 @@
 
 #include "../lib/acoth.h"
 
+#include "../lib/coth.h"
+
 #include "../lib/acsc.h"
 
 #include "../lib/acsch.h"
@@ -389,6 +391,14 @@ TEST_CASE("Testing tanh", "[tanh]") {
   REQUIRE(tanh(Complex(3, 4)) == Complex(1.0007, 0.0049));
   REQUIRE(tanh(Complex(0, 2)) == Complex(0,-2.1850));
   REQUIRE(tanh(Complex(2, 0)) == 0.9640);
+}
+
+TEST_CASE("Testing coth", "[coth]") {
+  cout << "Running tests on coth" << endl;
+  REQUIRE(coth(Complex(3, 4)) == Complex(0.999267, -0.004901));
+  REQUIRE(coth(Complex(0, 2)) == Complex(0, 0.457658));
+  REQUIRE(coth(Complex(2, 0)) == 1.0373147207275);
+  REQUIRE(coth(Complex(-1, 2)) == Complex(-0.82133, 0.171384));
 }
 
 #endif //#ifndef CATCH_AMALGAMATED_CUSTOM_MAIN

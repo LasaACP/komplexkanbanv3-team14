@@ -59,6 +59,8 @@ add_executable(MyProgram
   ../lib/sinh.cpp
   ../lib/tanh.cpp
   ../lib/tanh.h
+  ../lib/coth.h
+  ../lib/coth.cpp
   
   ../lib/cos.h     
   ../lib/instream.h      
