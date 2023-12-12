@@ -585,6 +585,30 @@ lib/cosh.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/cosh.cpp.s
 .PHONY : lib/cosh.cpp.s
 
+lib/coth.o: lib/coth.cpp.o
+.PHONY : lib/coth.o
+
+# target to build an object file
+lib/coth.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/coth.cpp.o
+.PHONY : lib/coth.cpp.o
+
+lib/coth.i: lib/coth.cpp.i
+.PHONY : lib/coth.i
+
+# target to preprocess a source file
+lib/coth.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/coth.cpp.i
+.PHONY : lib/coth.cpp.i
+
+lib/coth.s: lib/coth.cpp.s
+.PHONY : lib/coth.s
+
+# target to generate assembly for a file
+lib/coth.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/coth.cpp.s
+.PHONY : lib/coth.cpp.s
+
 lib/divequals.o: lib/divequals.cpp.o
 .PHONY : lib/divequals.o
 
@@ -969,6 +993,30 @@ lib/polar.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/polar.cpp.s
 .PHONY : lib/polar.cpp.s
 
+lib/pow.o: lib/pow.cpp.o
+.PHONY : lib/pow.o
+
+# target to build an object file
+lib/pow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/pow.cpp.o
+.PHONY : lib/pow.cpp.o
+
+lib/pow.i: lib/pow.cpp.i
+.PHONY : lib/pow.i
+
+# target to preprocess a source file
+lib/pow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/pow.cpp.i
+.PHONY : lib/pow.cpp.i
+
+lib/pow.s: lib/pow.cpp.s
+.PHONY : lib/pow.s
+
+# target to generate assembly for a file
+lib/pow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/pow.cpp.s
+.PHONY : lib/pow.cpp.s
+
 lib/real.o: lib/real.cpp.o
 .PHONY : lib/real.o
 
@@ -992,30 +1040,6 @@ lib/real.s: lib/real.cpp.s
 lib/real.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/real.cpp.s
 .PHONY : lib/real.cpp.s
-
-lib/rnd.o: lib/rnd.cpp.o
-.PHONY : lib/rnd.o
-
-# target to build an object file
-lib/rnd.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/rnd.cpp.o
-.PHONY : lib/rnd.cpp.o
-
-lib/rnd.i: lib/rnd.cpp.i
-.PHONY : lib/rnd.i
-
-# target to preprocess a source file
-lib/rnd.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/rnd.cpp.i
-.PHONY : lib/rnd.cpp.i
-
-lib/rnd.s: lib/rnd.cpp.s
-.PHONY : lib/rnd.s
-
-# target to generate assembly for a file
-lib/rnd.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/rnd.cpp.s
-.PHONY : lib/rnd.cpp.s
 
 lib/rotate.o: lib/rotate.cpp.o
 .PHONY : lib/rotate.o
@@ -1299,6 +1323,9 @@ help:
 	@echo "... lib/cosh.o"
 	@echo "... lib/cosh.i"
 	@echo "... lib/cosh.s"
+	@echo "... lib/coth.o"
+	@echo "... lib/coth.i"
+	@echo "... lib/coth.s"
 	@echo "... lib/divequals.o"
 	@echo "... lib/divequals.i"
 	@echo "... lib/divequals.s"
@@ -1347,12 +1374,12 @@ help:
 	@echo "... lib/polar.o"
 	@echo "... lib/polar.i"
 	@echo "... lib/polar.s"
+	@echo "... lib/pow.o"
+	@echo "... lib/pow.i"
+	@echo "... lib/pow.s"
 	@echo "... lib/real.o"
 	@echo "... lib/real.i"
 	@echo "... lib/real.s"
-	@echo "... lib/rnd.o"
-	@echo "... lib/rnd.i"
-	@echo "... lib/rnd.s"
 	@echo "... lib/rotate.o"
 	@echo "... lib/rotate.i"
 	@echo "... lib/rotate.s"

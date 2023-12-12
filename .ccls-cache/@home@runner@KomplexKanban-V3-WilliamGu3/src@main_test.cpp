@@ -87,7 +87,6 @@
 
 #include "../lib/real.h"
 
-#include "../lib/rnd.h"
 
 #include "../lib/rotate.h"
 
@@ -113,6 +112,8 @@
 #include "../lib/acosh.h"
 
 #include "../lib/acoth.h"
+
+#include "../lib/coth.h"
 
 #include "../lib/acsc.h"
 
@@ -196,6 +197,18 @@ TEST_CASE("Testing Addition") {
   REQUIRE(Complex(3, 0) + Complex(-2, 0) == Complex(1, 0));
 }
 
+TEST_CASE("Testing Equality") {
+  cout << "Running tests on equality" << endl;
+  REQUIRE(Complex(1, 2) == Complex(1, 2));
+  REQUIRE(!(Complex(1, -2) == Complex(1, 2)));
+}
+
+TEST_CASE("Testing notequals") {
+  cout << "Running tests on notequals" << endl;
+  REQUIRE(!(Complex(1, 2) != Complex(1, 2)));
+  REQUIRE((Complex(1, -2) != Complex(1, 2)));
+}
+
 TEST_CASE("Testing argument") {
   cout << "Running tests on argument" << endl;
 
@@ -212,11 +225,32 @@ TEST_CASE("Testing asin", "[asin]") {
   REQUIRE(asin(Complex(2, 0)) == Complex(1.5708 , -1.3170));
 }
 
+TEST_CASE("Testing asinh", "[asinh]") {
+  cout << "Running tests on asinh" << endl;
+  REQUIRE(asinh(Complex(3, 4)) == polar(2.299914 , 0.917617));
+  REQUIRE(asinh(Complex(0, 2)) == polar(1.316958, 1.570796));
+  REQUIRE(asinh(Complex(2, 0)) == polar(1.443635 , 0));
+}
+
+TEST_CASE("Testing rotate", "[rotate]") {
+  cout << "Running tests on rotate" << endl;
+  REQUIRE(rotate(Complex(3, -4), PI) == Complex(-3, 4));
+}
+
+
+
 TEST_CASE("Testing atan", "[atan]") {
   cout << "Running tests on atan" << endl;
   REQUIRE(atan(Complex(3, 4)) == Complex(1.4483 , 0.1590));
   REQUIRE(atan(Complex(0, 2)) == Complex(-1.5708 , 0.5493));
   REQUIRE(atan(Complex(2, 0)) == 1.1071);
+}
+
+TEST_CASE("Testing atanh", "[atanh]") {
+  cout << "Running tests on atanh" << endl;
+  REQUIRE(atanh(Complex(3, 4)) == polar(0.117501 , 1.409921));
+  REQUIRE(atanh(Complex(0, 2)) == polar(0, 1.107149));
+  REQUIRE(atanh(Complex(1, -2)) == polar(0.173287, -1.178097));
 }
 
 TEST_CASE("Testing complex conjugate") {
@@ -260,6 +294,13 @@ TEST_CASE("Testing Exp", "[exp]") {
   REQUIRE(exp(Complex(0,2)) == Complex(cos(2),sin(2)));
 } 
 
+TEST_CASE("Testing pow", "[pow]") {
+  cout << "Running tests on pow" << endl;
+  REQUIRE(pow(Complex(3, 4), 2) == Complex(-7, 24));
+  REQUIRE(pow(2, Complex(3, 4)) == Complex(-7.4614966, 2.8854927));
+  REQUIRE(pow(Complex(1, 2), Complex(3, 4)) == Complex(0.1290096, 0.0339241));
+} 
+
 TEST_CASE("Testing Imag") {
   cout << "Running tests on imag" << endl;
   REQUIRE(imag(Complex(1, 2)) == 2);
@@ -281,7 +322,7 @@ TEST_CASE("Testing log10", "[log10]"){
 }
 
 TEST_CASE("Testing minusequals", "[minusequals]") {
-  cout << "Running tests on minus" << endl;
+  cout << "Running tests on minusequals" << endl;
   REQUIRE((Complex(3, 2) -= Complex(3, -2)) == Complex(0, 4));
   REQUIRE((Complex(-5, 2) -= Complex(3, -2)) == Complex(-8, 4));
 }
@@ -389,6 +430,71 @@ TEST_CASE("Testing tanh", "[tanh]") {
   REQUIRE(tanh(Complex(3, 4)) == Complex(1.0007, 0.0049));
   REQUIRE(tanh(Complex(0, 2)) == Complex(0,-2.1850));
   REQUIRE(tanh(Complex(2, 0)) == 0.9640);
+}
+
+TEST_CASE("Testing coth", "[coth]") {
+  cout << "Running tests on coth" << endl;
+  REQUIRE(coth(Complex(2, 0)) == 1.0373147207275);
+  REQUIRE(coth(Complex(3, 4)) == Complex(0.999267, -0.004901));
+  REQUIRE(coth(Complex(0, 2)) == Complex(0, 0.457658));
+  
+  REQUIRE(coth(Complex(-1, 2)) == Complex(-0.82133, 0.171384));
+}
+
+TEST_CASE("Testing acosh", "[acosh]") {
+  cout << "Running tests on acosh" << endl;
+  REQUIRE(acosh(Complex(0, 2)) == polar(1.443635, 1.570796));
+  REQUIRE(acosh(Complex(1, -2)) == polar(1.528571 , -1.143718));
+  REQUIRE(acosh(Complex(2, 0)) == polar(1.316958, 0));
+  REQUIRE(acosh(Complex(3, -4)) == polar(2.305509, -0.936812));
+}
+
+TEST_CASE("Testing acot", "[acot]") {
+  cout << "Running tests on acot" << endl;
+  REQUIRE(acot(Complex(0, 2)) == Complex(0, -0.549306));
+  REQUIRE(acot(Complex(1, -2)) == Complex(0.259573 , 0.238878));
+  REQUIRE(acot(Complex(2, 0)) == Complex(0.463648, 0));
+  REQUIRE(acot(Complex(3, -4)) == Complex(0.122489, 0.158997));
+}
+
+TEST_CASE("Testing acoth", "[acoth]") {
+  cout << "Running tests on acoth" << endl;
+  REQUIRE(acoth(Complex(0, 2)) == Complex(0, -0.463648));
+  REQUIRE(acoth(Complex(2, 0)) == Complex(0.549306, 0));
+  REQUIRE(acoth(Complex(3, -4)) == Complex(0.117501, 0.160875));
+  REQUIRE(acoth(Complex(1, -2)) == Complex(0.173287 , 0.392699));
+}
+
+TEST_CASE("Testing acsc", "[acsc]") {
+  cout << "Running tests on acsc" << endl;
+  REQUIRE(acsc(Complex(0, 2)) == Complex(0, -0.481212));
+  REQUIRE(acsc(Complex(2, 0)) == Complex(0.523599, 0));
+  REQUIRE(acsc(Complex(3, -4)) == Complex(0.118751, 0.160446));
+  REQUIRE(acsc(Complex(1, -2)) == Complex(0.186318 , 0.396568));
+}
+
+TEST_CASE("Testing acsch", "[acsch]") {
+  cout << "Running tests on acsch" << endl;
+  REQUIRE(acsch(Complex(0, 2)) == Complex(0, - 0.523599));
+  REQUIRE(acsch(Complex(2, 0)) == Complex(1.443635, 0));
+  REQUIRE(acsch(Complex(3, -4)) == Complex(0.121246, 0.159507));
+  REQUIRE(acsch(Complex(1, -2)) == Complex(0.215612 , 0.401586));
+}
+
+TEST_CASE("Testing asec", "[asec]") {
+  cout << "Running tests on asec" << endl;
+  REQUIRE(asec(Complex(0, 2)) == Complex(0.481212, -1.570796));
+  REQUIRE(asec(Complex(2, 0)) == Complex(0, 1.047198));
+  REQUIRE(asec(Complex(3, -4)) == Complex(1.452046, -0.160446));
+  REQUIRE(asec(Complex(1, -2)) == Complex(1.384478 , -0.396568));
+}
+
+TEST_CASE("Testing asech", "[asech]") {
+  cout << "Running tests on asech" << endl;
+  REQUIRE(asech(Complex(0, 2)) == Complex(0, - 0.523599));
+  REQUIRE(asech(Complex(2, 0)) == Complex(1.443635, 0));
+  REQUIRE(asech(Complex(3, -4)) == Complex(0.160446, 1.452046));
+  REQUIRE(asech(Complex(1, -2)) == Complex(0.396568 , 1.384478));
 }
 
 #endif //#ifndef CATCH_AMALGAMATED_CUSTOM_MAIN

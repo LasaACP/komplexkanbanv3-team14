@@ -87,7 +87,6 @@
 
 #include "../lib/real.h"
 
-#include "../lib/rnd.h"
 
 #include "../lib/rotate.h"
 
@@ -238,12 +237,7 @@ TEST_CASE("Testing rotate", "[rotate]") {
   REQUIRE(rotate(Complex(3, -4), PI) == Complex(-3, 4));
 }
 
-TEST_CASE("Testing rnd", "[rnd]") {
-  cout << "Running tests on rnd" << endl;
-  REQUIRE(rnd(sinh(Complex(3, 4))) == polar(-6.55 , - 7.62));
-  REQUIRE(rnd(sinh(Complex(0, 2))) == polar(0, 0.91));
-  REQUIRE(rnd(sinh(Complex(2, 0))) == polar(3.63, 0));
-}
+
 
 TEST_CASE("Testing atan", "[atan]") {
   cout << "Running tests on atan" << endl;

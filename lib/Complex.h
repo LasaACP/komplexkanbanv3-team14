@@ -11,10 +11,7 @@ public:
   double img;
   Complex();
   Complex(double r, double i);
-Complex rnd(int placesToRound) const {
-  double power = pow(10, placesToRound);
-  return Complex(round(real * power) / power, round(img * power) / power);
-}
+Complex rnd(int placesToRound) const;
 };
 
 

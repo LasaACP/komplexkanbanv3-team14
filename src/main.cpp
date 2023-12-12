@@ -56,7 +56,6 @@
 
 #include "../lib/real.h"
 
-#include "../lib/rnd.h"
 
 #include "../lib/rotate.h"
 
@@ -154,7 +153,7 @@ int main () {
      cout << "a^b is: " << pow(a, b) << "\n";
     cout << "a^2.7 is: " << pow(a, 2.7) << "\n";
     cout << "2.7^a is: " << pow(2.7, a) << "\n";
-    cout << "The cube root is: " << root(a, 3) << "\n\n";
+//   cout << "The cube root is: " << root(a, 3) << "\n\n";
 
     cout << "(a == b) is: " << ((a==b) ? "true" : "false") << "\n";
    cout << "(a != b) is: " << ((a!=b) ? "true" : "false") << "\n\n";
@@ -172,7 +171,7 @@ int main () {
 
     cout << "The asinh is:" << asinh(a) << "\n";
      cout << "The acosh is: " << acosh(a) << "\n";
-    // cout << "Rounded to 2 decimal places: " << acosh(a).rnd(2) << "\n";
+    cout << "Rounded to 2 decimal places: " << acosh(a).rnd(2) << "\n";
     cout << "The atanh is: " << atanh(a) << "\n";
      cout << "The acsch is: " << acsch(a) << "\n";
      cout << "The asech is: " << asech(a) << "\n";

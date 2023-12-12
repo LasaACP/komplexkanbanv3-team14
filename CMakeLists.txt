@@ -51,8 +51,7 @@ add_executable(MyProgram
   ../lib/cosh.h
   ../lib/notequals.cpp
   ../lib/notequals.h
-  ../lib/rnd.cpp
-  ../lib/rnd.h
+
   ../lib/rotate.cpp
   ../lib/rotate.h
   ../lib/sinh.h
