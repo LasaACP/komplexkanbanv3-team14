@@ -237,7 +237,7 @@ TEST_CASE("Testing rotate", "[rotate]") {
   REQUIRE(rotate(Complex(3, -4), PI) == Complex(-3, 4));
 }
 
-
+ 
 
 TEST_CASE("Testing atan", "[atan]") {
   cout << "Running tests on atan" << endl;
