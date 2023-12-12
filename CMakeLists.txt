@@ -11,7 +11,9 @@ project(myProject)
 #../tests/catch_amalgamated.hpp
 
 add_executable(MyProgram
-../src/main.cpp
+../src/main_test.cpp
+../tests/catch_amalgamated.cpp
+../tests/catch_amalgamated.hpp
   ../lib/abs.cpp
   ../lib/cos.cpp   
   ../lib/instream.cpp

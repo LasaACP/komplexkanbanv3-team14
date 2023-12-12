@@ -1209,29 +1209,53 @@ lib/tanh.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/lib/tanh.cpp.s
 .PHONY : lib/tanh.cpp.s
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+src/main_test.o: src/main_test.cpp.o
+.PHONY : src/main_test.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/main_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/src/main_test.cpp.o
+.PHONY : src/main_test.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/main_test.i: src/main_test.cpp.i
+.PHONY : src/main_test.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/main_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/src/main_test.cpp.i
+.PHONY : src/main_test.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/main_test.s: src/main_test.cpp.s
+.PHONY : src/main_test.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/main_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/src/main_test.cpp.s
+.PHONY : src/main_test.cpp.s
+
+tests/catch_amalgamated.o: tests/catch_amalgamated.cpp.o
+.PHONY : tests/catch_amalgamated.o
+
+# target to build an object file
+tests/catch_amalgamated.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/tests/catch_amalgamated.cpp.o
+.PHONY : tests/catch_amalgamated.cpp.o
+
+tests/catch_amalgamated.i: tests/catch_amalgamated.cpp.i
+.PHONY : tests/catch_amalgamated.i
+
+# target to preprocess a source file
+tests/catch_amalgamated.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/tests/catch_amalgamated.cpp.i
+.PHONY : tests/catch_amalgamated.cpp.i
+
+tests/catch_amalgamated.s: tests/catch_amalgamated.cpp.s
+.PHONY : tests/catch_amalgamated.s
+
+# target to generate assembly for a file
+tests/catch_amalgamated.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/tests/catch_amalgamated.cpp.s
+.PHONY : tests/catch_amalgamated.cpp.s
 
 # Help Target
 help:
@@ -1377,9 +1401,12 @@ help:
 	@echo "... lib/tanh.o"
 	@echo "... lib/tanh.i"
 	@echo "... lib/tanh.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/main_test.o"
+	@echo "... src/main_test.i"
+	@echo "... src/main_test.s"
+	@echo "... tests/catch_amalgamated.o"
+	@echo "... tests/catch_amalgamated.i"
+	@echo "... tests/catch_amalgamated.s"
 .PHONY : help
 
 
