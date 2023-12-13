@@ -1,4 +1,4 @@
-# Install script for directory: /home/runner/KomplexKanban-V3-JacobMathew1/komplexkanbanv3-team14
+# Install script for directory: /home/runner/KomplexKanban-V3-WilliamGu3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/runner/KomplexKanban-V3-JacobMathew1/komplexkanbanv3-team14/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/runner/KomplexKanban-V3-WilliamGu3/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

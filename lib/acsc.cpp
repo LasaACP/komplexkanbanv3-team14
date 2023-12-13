@@ -8,5 +8,5 @@
 #include <limits>
 
 Complex acsc(Complex z){
-  return ((1/Complex(0,1))*log((Complex(0,1)+sqrt(z*z  - 1))/z));
+  return ((1/Complex(0,1))*log((Complex(0,1)+sqrt((z*z)  - 1))/z));
 }

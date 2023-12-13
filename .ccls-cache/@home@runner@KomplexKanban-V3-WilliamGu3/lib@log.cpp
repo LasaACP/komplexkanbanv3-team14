@@ -6,5 +6,5 @@
 #include "arg.h"
 
 Complex log(Complex z){
-  return polar(log(abs(z)), arg(z));
+  return Complex(log(abs(z)), arg(z));
 }

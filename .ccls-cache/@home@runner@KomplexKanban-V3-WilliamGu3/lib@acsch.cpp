@@ -7,5 +7,5 @@
 #include "log.h"
 #include "sqrt.h"
 Complex acsch(Complex z){
-  return log((sqrt(1+(1/z*z))+(1/z)));
+  return log((1+sqrt(1+(z*z)))/z);
 }

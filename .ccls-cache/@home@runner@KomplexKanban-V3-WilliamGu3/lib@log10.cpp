@@ -1,5 +1,8 @@
 #include "log10.h"
-Complex log10(const Complex &c)
+#include "log.h"
+#include <cmath>
+Complex log10(const Complex c)
 {
-  return Complex(); //dummy return will calculate, for formatting @Liam
+  Complex n = log(c);
+  return Complex(n.real/log(10), n.img/log(10));
 }

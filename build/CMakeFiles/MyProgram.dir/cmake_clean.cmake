@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MyProgram.dir/home/runner/KomplexKanban-V3-JacobMathew1/tests/catch_amalgamated.cpp.o"
-  "CMakeFiles/MyProgram.dir/home/runner/KomplexKanban-V3-JacobMathew1/tests/catch_amalgamated.cpp.o.d"
   "CMakeFiles/MyProgram.dir/lib/Complex.cpp.o"
   "CMakeFiles/MyProgram.dir/lib/Complex.cpp.o.d"
   "CMakeFiles/MyProgram.dir/lib/abs.cpp.o"
@@ -91,8 +89,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MyProgram.dir/lib/tan.cpp.o.d"
   "CMakeFiles/MyProgram.dir/lib/tanh.cpp.o"
   "CMakeFiles/MyProgram.dir/lib/tanh.cpp.o.d"
-  "CMakeFiles/MyProgram.dir/src/main_test.cpp.o"
-  "CMakeFiles/MyProgram.dir/src/main_test.cpp.o.d"
+  "CMakeFiles/MyProgram.dir/src/main.cpp.o"
+  "CMakeFiles/MyProgram.dir/src/main.cpp.o.d"
   "MyProgram"
   "MyProgram.pdb"
 )
