@@ -1,0 +1,3 @@
+/home/runner/KomplexKanban-V3-JacobMathew1/komplexkanbanv3-team14/CMakeFiles/MyProgram.dir
+/home/runner/KomplexKanban-V3-JacobMathew1/komplexkanbanv3-team14/CMakeFiles/edit_cache.dir
+/home/runner/KomplexKanban-V3-JacobMathew1/komplexkanbanv3-team14/CMakeFiles/rebuild_cache.dir

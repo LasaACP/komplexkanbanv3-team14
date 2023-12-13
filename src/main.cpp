@@ -72,7 +72,7 @@
 #include "../lib/tanh.h"
 
 
-#include "../tests/catch_amalgamated.hpp"
+#include "../../tests/catch_amalgamated.hpp"
 
 
 

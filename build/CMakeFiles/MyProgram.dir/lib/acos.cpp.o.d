@@ -1,8 +1,8 @@
 CMakeFiles/MyProgram.dir/lib/acos.cpp.o: \
- /home/runner/KomplexKanban-V3-WilliamGu3/lib/acos.cpp \
+ /home/runner/KomplexKanban-V3-JacobMathew1/komplexkanbanv3-team14/lib/acos.cpp \
  /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163-dev/include/stdc-predef.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/lib/acos.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/lib/Complex.h \
+ /home/runner/KomplexKanban-V3-JacobMathew1/komplexkanbanv3-team14/lib/acos.h \
+ /home/runner/KomplexKanban-V3-JacobMathew1/komplexkanbanv3-team14/lib/Complex.h \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/iostream \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/x86_64-unknown-linux-gnu/bits/c++config.h \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/x86_64-unknown-linux-gnu/bits/os_defines.h \
@@ -234,10 +234,10 @@ CMakeFiles/MyProgram.dir/lib/acos.cpp.o: \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/tr1/poly_hermite.tcc \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/tr1/poly_laguerre.tcc \
  /nix/store/1gf2flfqnpqbr1b4p4qz2f72y42bs56r-gcc-11.3.0/include/c++/11.3.0/tr1/riemann_zeta.tcc \
- /home/runner/KomplexKanban-V3-WilliamGu3/lib/addition.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/lib/log.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/lib/multiplication.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/lib/sqrt.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/lib/subtraction.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/lib/division.h \
- /home/runner/KomplexKanban-V3-WilliamGu3/lib/pow.h
+ /home/runner/KomplexKanban-V3-JacobMathew1/komplexkanbanv3-team14/lib/addition.h \
+ /home/runner/KomplexKanban-V3-JacobMathew1/komplexkanbanv3-team14/lib/log.h \
+ /home/runner/KomplexKanban-V3-JacobMathew1/komplexkanbanv3-team14/lib/multiplication.h \
+ /home/runner/KomplexKanban-V3-JacobMathew1/komplexkanbanv3-team14/lib/sqrt.h \
+ /home/runner/KomplexKanban-V3-JacobMathew1/komplexkanbanv3-team14/lib/subtraction.h \
+ /home/runner/KomplexKanban-V3-JacobMathew1/komplexkanbanv3-team14/lib/division.h \
+ /home/runner/KomplexKanban-V3-JacobMathew1/komplexkanbanv3-team14/lib/pow.h
