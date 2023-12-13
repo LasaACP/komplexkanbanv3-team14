@@ -1,2 +1,2 @@
 #include "Complex.h"
-Complex log10(const Complex &c);
+Complex log10(const Complex c);

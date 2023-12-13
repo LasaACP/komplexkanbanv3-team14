@@ -7,5 +7,5 @@
 #include <limits>
 
 Complex acoth(Complex z){
-  return ((1/2)*log((z+1)/(z-1)));
+  return ((1/2)*(log(1+(1/z))-log(1-(1/z))));
 }
